@@ -440,8 +440,8 @@ $(document).ready(function() {
                 });
             }
         }
-        $('<link rel="stylesheet" type="text/css" href="css/tipTip.css" >').appendTo("head");
-        $.getScript("js/jquery.tipTip.js", function() {
+        $('<link rel="stylesheet" type="text/css" href="/resources/css/tipTip.css" >').appendTo("head");
+        $.getScript("/resources/js/jquery.tipTip.js", function() {
             $(".tip-top").tipTip({
                 delay: 0,
                 maxWidth: "150px",
@@ -1558,8 +1558,8 @@ $(document).ready(function() {
             } catch (e) {
                 $('.add-friend').hide()
             }
-            $('<link rel="stylesheet" type="text/css" href="css/tipTip.css" >').appendTo("head");
-            $.getScript("js/jquery.tipTip.js", function() {
+            $('<link rel="stylesheet" type="text/css" href="/resources/css/tipTip.css" >').appendTo("head");
+            $.getScript("/resources/js/jquery.tipTip.js", function() {
                 $(".profile-tip").tipTip({
                     delay: 0,
                     maxWidth: "150px",
