@@ -5579,7 +5579,7 @@ a:hover {
     padding: 0
 }
 #header h1 {
-    background: url(/resources/logo.png) no-repeat scroll 0 0 transparent;
+    background: url(/resources/images/logo.png) no-repeat scroll 0 0 transparent;
     height: 31px;
     left: 15px;
     line-height: 600px;
@@ -5697,7 +5697,7 @@ a:hover {
     opacity: 1
 }
 #sidebar>ul>li.active>a {
-    background: url(/resources/xmenu.png) no-repeat scroll right center transparent!important
+    background: url(/resources/images/xmenu.png) no-repeat scroll right center transparent!important
 }
 #sidebar>ul>li>a>.label {
     margin: 0 20px 0 0;
@@ -6864,7 +6864,7 @@ form {
     *margin-right: .3em;
     line-height: 16px;
     vertical-align: text-top;
-    background-image: url(/resources/xhe16.png);
+    background-image: url(/resources/images/xhe16.png);
     background-position: 16px 16px;
     background-repeat: no-repeat
 }
