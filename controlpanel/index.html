@@ -19,7 +19,7 @@
 <div id="user-nav" class="navbar navbar-inverse">
 <ul class="nav btn-group">
 <li class="btn btn-inverse"><a href="https://br.hackerexperience.com/profile"><i class="fa fa-inverse fa-user"></i> <span class="text">@username@</span></a></li>
-<li class="btn btn-inverse"><a href="https://br.hackerexperience.com/mail"><i class="fa fa-inverse fa-envelope"></i> <span class="text">E-Mail</span> <span class="mail-unread label label-important">@amount@</span></a></li>
+<li class="btn btn-inverse"><a href="https://br.hackerexperience.com/mail"><i class="fa fa-inverse fa-envelope"></i> <span class="text">E-Mail</span> <span class="mail-unread label label-important">@emailamount@</span></a></li>
 <li class="btn btn-inverse"><a href="https://br.hackerexperience.com/settings"><i class="fa fa-inverse fa-wrench"></i> <span class="text">Settings</span></a></li>
 <li class="btn btn-inverse"><a href="https://br.hackerexperience.com/logout"><i class="fa fa-power-off fa-inverse"></i> <span class="text">Logout</span></a></li>
 </ul>
@@ -50,7 +50,7 @@
 <div style="text-align: right;">
 <span class="header-ip-show">77.164.246.91</span>
 </div>
-<div class="header-info"><span class="small nomargin">Uptime: 5 days and 18 hours</span><br>0dG9mMoy <span class="small nomargin change-pwd link">[ change ]</span><div style="float: right;">&nbsp;<span class="online"><span class="he16-online" title="205 online players"></span> <span class="small nomargin">205</span></span></div></div>
+<div class="header-info"><span class="small nomargin">@uptime@ <!-- Uptime: 5 days and 18 hours --></span><br>@serverpassword@ <!-- 0dG9mMoy --><span class="small nomargin change-pwd link">[ change ]</span><div style="float: right;">&nbsp;<span class="online"><span class="he16-online" title="205 online players"></span> <span class="small nomargin">205</span></span></div></div>
 </div>
 </div>
 <div id="breadcrumb">
@@ -76,27 +76,27 @@
 <tr>
 <td><span class="he16-cpu heicon"></span></td>
 <td><span class="item">Processor</span></td>
-<td>0.5 GHz</td>
+<td>@hwinfo1@</td> <!-- 0.5 GHz -->
 </tr>
 <tr>
 <td><span class="he16-hdd heicon"></span></td>
 <td><span class="item">Hard Drive</span></td>
-<td>100 MB</td>
+<td>@hwinfo2@</td> <!-- 100MB -->
 </tr>
 <tr>
 <td><span class="he16-ram heicon"></span></td>
 <td><span class="item">Memory</span></td>
-<td>256 MB</td>
+<td>@hwinfo3@</td> <!-- 256MB -->
 </tr>
 <tr>
 <td><i class="he16-net heicon"></i></td>
 <td><span class="item">Internet</span></td>
-<td>1 Mbit/s</td>
+<td>@hwinfo4@</td> <!-- 1 Mbit/s -->
 </tr>
 <tr>
 <td><span class="he16-xhd heicon"></span></td>
 <td><span class="item">External HD</span></td>
-<td>None</td>
+<td>@hwinfo5@</td> <!-- None -->
 </tr>
 </tbody>
 </table>
@@ -117,28 +117,28 @@
 <td><span class="he16-reputation heicon"></span></td>
 <td><span class="item">Reputation</span></td>
 <td>
-7 <span class="small">Ranked #7048</span>
+@ginfo1@ <span class="small">@rankedat@</span>
 </td>
 </tr>
 <tr>
 <td><span class="he16-taskmanager heicon"></span></td>
 <td><span class="item">Running tasks</span></td>
-<td><a class="black" href="https://br.hackerexperience.com/processes">0</a></td>
+<td><a class="black" href="https://br.hackerexperience.com/processes">@ginfo2@</a></td>
 </tr>
 <tr>
 <td><i class="he16-world heicon"></i></td>
 <td><span class="item">Connected to</span></td>
-<td>No one</td>
+<td>@ginfo3@</td>
 </tr>
 <tr>
 <td><i class="he16-missions heicon"></i></td>
 <td><span class="item">Mission</span></td>
-<td>None</td>
+<td>@ginfo4@</td>
 </tr>
 <tr>
 <td><i class="he16-clan heicon"></i></td>
 <td><span class="item">Clan</span></td>
-<td><a class="black" href="https://br.hackerexperience.com/clan?id=12686">@clan@</a> <span class="label label-info pull-right">Master</span> </td>
+<td><a class="black" href="https://br.hackerexperience.com/clan?id=12686">@ginfo5@</a> <span class="label label-info pull-right">Master</span> </td>
 </tr>
 </tbody>
 </table>
@@ -150,7 +150,7 @@
 <div class="widget-box">
 <div class="widget-title">
 <span class="icon"><i class="he16-news"></i></span>
-<h5>News</h5>
+<h5>Ingame News</h5>
 <a href="https://br.hackerexperience.com/news"><span class="label">View all</span></a>
 </div>
 <div class="widget-content nopadding border">
