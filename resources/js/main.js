@@ -1602,7 +1602,7 @@ $(document).ready(function() {
         }
     }
     if ($('body').hasClass('pie')) {
-        $.getScript("js/pie.js");
+        $.getScript("/resources/js/pie.js");
     }
     if ($('#notify-mission').length && !($('body').hasClass('missions'))) {
         $.ajax({
