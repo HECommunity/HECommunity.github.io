@@ -1,0 +1,7 @@
+<div class="widget-content padding noborder">
+<form action="" method="POST">
+Creating an account here is free!<br><br>
+<input type="hidden" name="int-act" value="register">
+<input type="submit" value="Create account">
+</form>
+</div>

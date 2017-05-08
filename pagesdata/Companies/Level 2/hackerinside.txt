@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 64.152.124.105 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p></p><div class="center"><img alt="Hacker Inside" title="Hacker Inside" src="images/npc/hackerinside.svg"><br><br><span class="small">Lammer outside</span></div><p></p>
+</div>

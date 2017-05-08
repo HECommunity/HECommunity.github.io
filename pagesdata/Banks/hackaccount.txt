@@ -1,0 +1,20 @@
+<div class="widget-box reply-area">
+<div class="widget-title">
+<span class="icon"><i class="fa fa-arrow-right"></i></span>
+<h5>Hack bank account</h5>
+</div>
+<div class="widget-content nopadding">
+<form action="" method="GET" class="form-horizontal">
+<input type="hidden" name="action" value="hack">
+<div class="control-group">
+<label class="control-label">Account #</label>
+<div class="controls">
+<input type="text" placeholder="Account to hack" name="acc" autofocus="1">
+</div>
+</div>
+<div class="form-actions">
+<button type="submit" class="btn btn-inverse">Hack</button>
+</div>
+</form>
+</div>
+</div>
