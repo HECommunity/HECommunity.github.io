@@ -1,0 +1,66 @@
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"></span>
+<span id="puzzle-isSolved" value="false"></span>
+<h3>Question &amp; Answer</h3>
+<div style="text-align: left;">
+<strong>Puzzle: </strong>
+Setec Astronomy<br><br><strong>Note: </strong><a href="http://www.imdb.com/title/tt0105435/">Sneakers</a>. </div>
+<br>
+<form action="internet?view=software&amp;cmd=riddle" method="POST">
+<input type="hidden" name="int-act" value="qa">
+<input name="qa-answer" type="text" placeholder="Answer"><br>
+<input class="btn btn-success" type="submit" value="Submit answer">
+</form>
+</div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next">XXX.XXX.XX.XX</span><br>
+<span id="puzzle-solve" class="small nomargin">(Solve the puzzle)</span>
+</div>
+<div class="puzzle-result">
+<span id="puzzle-status"></span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">781</span> players solved this riddle<br>
+<span class="puzzle-tie">60</span> players are stuck here<br>
+<span class="red">1,749</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>

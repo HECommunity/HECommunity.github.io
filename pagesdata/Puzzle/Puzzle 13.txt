@@ -1,0 +1,10 @@
+80.140.52.87
+
+<div class="widget-content padding center">
+<span id="puzzle-header"><strong>You already solved this riddle. The next IP is <a href="internet?ip=196.223.146.103">196.223.146.103</a></strong><br><br></span>
+<span id="puzzle-isSolved" value="false"></span>
+<h3>Question &amp; Answer</h3>
+<div style="text-align: left;">
+<strong>Puzzle: </strong>
+In Alexander Dumas' book, "The Three Musketeers", two of the musketeers are called Athos and Porthos. What was the name of the third Musketeer? </div>
+<br><div class="alert alert-success">Congratulations, you already solved this puzzle with the answer <strong>Aramis</strong>.<br><br>The next puzzle is located at <strong><a href="internet?ip=196.223.146.103">196.223.146.103</a></strong></div> </div>

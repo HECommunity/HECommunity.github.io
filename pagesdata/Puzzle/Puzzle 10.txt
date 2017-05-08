@@ -1,0 +1,67 @@
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"></span>
+<span id="puzzle-isSolved" value="false"></span>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src="puzzle/sudoku/sudoku.js.pagespeed.jm.i0v1cQrYgV.js" type="text/javascript"></script>
+<style media="screen">table#sudoku_panel{border-collapse:collapse;margin-left:auto;margin-right:auto}#sudoku_panel tbody td{border:1px solid #000;padding:10px 10px;margin:0;text-align:center;vertical-align:middle;width:11%;height:20px;background-color:#eee}#sudoku_panel tbody td.topBorder{border-top:2px solid #000}#sudoku_panel tbody td.bottomBorder{border-bottom:2px solid #000}#sudoku_panel tbody td.leftBorder{border-left:2px solid #000}#sudoku_panel tbody td.rightBorder{border-right:2px solid #000}#sudoku_panel tbody td.notice{padding:4px;vertical-align:bottom;font-size:0;line-height:0;background-color:#fff}#sudoku_panel tfoot td{font-size:x-small}#sudoku_panel tfoot td.leftFootInfo{text-align:left}#sudoku_panel tfoot td.centerFootInfo{text-align:center}#sudoku_panel tfoot td.rightFootInfo{text-align:right}#sudoku_panel input{border:none;text-align:center;width:20px;height:18px;margin-bottom:0;padding:0}#sudoku_panel input.notice{font-family:arial,sans-serif;border:1px solid #eee;text-align:left;width:20px;font-size:8px;height:9px;margin:0 5px}#slider01{margin:.5em auto;position:relative;width:176px;height:20px;background:url(puzzle/sudoku/gfx/sudoku_range.png) 50% 50% no-repeat}#slider01 img{position:absolute;top:2px;left:0px}</style>
+<p style="text-align:center;" id="sudoku"><table id="sudoku_panel"><tbody><tr><td class=" topBorder leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_1"><br><input class="notice" title="Notice" type="text"></td><td class=" topBorder notice"><input type="text" title="Wert" maxlength="1" id="uid_3"><br><input class="notice" title="Notice" type="text"></td><td class=" topBorder rightBorder ">8</td><td class=" topBorder">9</td><td class=" topBorder">4</td><td class=" topBorder rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td><td class=" topBorder">5</td><td class=" topBorder" style="">6</td><td class=" topBorder rightBorder ">7</td></tr><tr><td class=" leftBorder ">6</td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td><td class="">1</td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_5"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder ">7</td><td class="">8</td><td class="">3</td><td class=" rightBorder " style="">9</td></tr><tr><td class=" bottomBorder  leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_5"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_7"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  rightBorder ">9</td><td class=" bottomBorder ">8</td><td class=" bottomBorder ">6</td><td class=" bottomBorder  rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_3"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_1"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_8"><br><input class="notice" title="Notice" type="text"></td><td class="">6</td><td class=" rightBorder ">1</td><td class="">3</td><td class="">2</td><td class=" rightBorder " style="">9</td><td class="">7</td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_5"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" leftBorder ">3</td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_5"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_7"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder ">8</td><td class="">6</td><td class="">9</td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_1"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" bottomBorder  leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_9"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  rightBorder ">7</td><td class=" bottomBorder ">5</td><td class=" bottomBorder ">1</td><td class=" bottomBorder  rightBorder ">6</td><td class=" bottomBorder " style="">2</td><td class=" bottomBorder ">8</td><td class=" bottomBorder  rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_3"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_7"><br><input class="notice" title="Notice" type="text"></td><td class=" notice"><input type="text" title="Wert" maxlength="1" id="uid_1"><br><input class="notice" title="Notice" type="text"></td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_6"><br><input class="notice" title="Notice" type="text"></td><td class="">2</td><td class="">9</td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_4"><br><input class="notice" title="Notice" type="text"></td><td class="">3</td><td class="">5</td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_8"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_9"><br><input class="notice" title="Notice" type="text"></td><td class="">8</td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_5"><br><input class="notice" title="Notice" type="text"></td><td class="">6</td><td class="">3</td><td class=" rightBorder ">1</td><td class="">4</td><td class="">7</td><td class=" rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td></tr><tr><td class=" bottomBorder  leftBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_2"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder ">4</td><td class=" bottomBorder  rightBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_3"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder ">7</td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_8"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  rightBorder ">5</td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_9"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  notice"><input type="text" title="Wert" maxlength="1" id="uid_1"><br><input class="notice" title="Notice" type="text"></td><td class=" bottomBorder  rightBorder ">6</td></tr></tbody><tfoot><tr><td colspan="3" class="leftFootInfo" title="Show me one solution..." style="cursor: pointer;">Show Solution</td><td colspan="3" class="centerFootInfo" title="SUDOKU-Puzzle by derletztekick.com..." style="cursor: pointer;">SUDOKU-Puzzle</td><td colspan="3" class="rightFootInfo" title="Start a new Game..." style="cursor: pointer;">New Game</td></tr></tfoot></table></p> </div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next">X.X.X.X</span><br>
+<span id="puzzle-solve" class="small nomargin">(Solve the puzzle)</span>
+</div>
+<div class="puzzle-result">
+<span id="puzzle-status"></span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">654</span> players solved this riddle<br>
+<span class="puzzle-tie">128</span> players are stuck here<br>
+<span class="red">1,809</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+Sudoku was developed by <a href="http://sourceforge.net/projects/sudoku-puzzle/">derletztekick.com</a> </div>
+</div>
+</div>
+</div>

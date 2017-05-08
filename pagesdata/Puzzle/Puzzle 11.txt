@@ -1,0 +1,134 @@
+1.2.3.4
+
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"></span>
+<span id="puzzle-isSolved" value="false"></span>
+
+
+
+<meta charset="utf-8">
+<link href="puzzle/2048/style/main.css" rel="stylesheet" type="text/css">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+<center>
+<div class="container">
+<div class="above-game">
+<p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+<a class="restart-button">New Game</a>
+</div>
+<div class="game-container">
+<div class="game-message">
+<p></p>
+<div class="lower">
+<a class="keep-playing-button">Keep going</a>
+<a class="retry-button">Try again</a>
+</div>
+</div>
+<div class="grid-container">
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+<div class="grid-row">
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+<div class="grid-cell"></div>
+</div>
+</div>
+<div class="tile-container"><div class="tile tile-2 tile-position-1-1 tile-new"><div class="tile-inner">2</div></div><div class="tile tile-2 tile-position-1-2 tile-new"><div class="tile-inner">2</div></div></div>
+</div>
+<div class="heading">
+<div class="score-container">0</div>
+<div class="best-container">0</div>
+</div>
+</div></center>
+<script src="puzzle/2048/js/bind_polyfill.js+classlist_polyfill.js+animframe_polyfill.js+keyboard_input_manager.js+html_actuator.js+grid.js+tile.js+local_storage_manager.js+game_manager.js+application.js.pagespeed.jc.1eETOZrSnh.js"></script><script>eval(mod_pagespeed_7awIo0Cjza);</script>
+<script>eval(mod_pagespeed_DBc7UbHKU_);</script>
+<script>eval(mod_pagespeed_zWv1uvPTxi);</script>
+<script>eval(mod_pagespeed_OriKcB$Gyb);</script>
+<script>eval(mod_pagespeed_pPKYXm3tEv);</script>
+<script>eval(mod_pagespeed_ySZOL8j6RJ);</script>
+<script>eval(mod_pagespeed_FMjQ6MHYSv);</script>
+<script>eval(mod_pagespeed_IdIaFaAm4p);</script>
+<script>eval(mod_pagespeed_BS3feiorTS);</script>
+<script>eval(mod_pagespeed_WUic8Py8EH);</script>
+
+
+</div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next">XXX.XX.XX.XXX</span><br>
+<span id="puzzle-solve" class="small nomargin">(Solve the puzzle)</span>
+</div>
+<div class="puzzle-result">
+<span id="puzzle-status"></span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">421</span> players solved this riddle<br>
+<span class="puzzle-tie">28</span> players are stuck here<br>
+<span class="red">1,937</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+2048 was developed by <a href="http://www.forkk.net">Forkk.net</a> </div>
+</div>
+</div>
+</div>
