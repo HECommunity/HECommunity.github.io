@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 206.128.223.106 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p>Welcome to the First Puzzle. Follow the trail to get better softwares.<br><br>The First Puzzle is easy, but can you solve the next ones? Good luck :)</p>
+</div>

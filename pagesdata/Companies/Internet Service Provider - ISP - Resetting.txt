@@ -1,0 +1,10 @@
+<div class="span12">
+<p>Server 1.158.201.174 is <font color="green"><b>online</b></font><span class="label label-important pull-right">ISP</span></p>
+HEX Internet Service Provider - ISP<br><br><ul class="list"><li><div class="span4 processBlock34543390"><div class="proc-desc">Reset IP at <a href="software">localhost</a></div></div><div class="span5">
+<div id="process0">
+<div class="percent"><b>1.5%</b></div>
+<div class="pbar ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 1.45116%;"></div></div>
+<div class="elapsed">0h:9m:51s</div>
+</div></div><div class="span3 proc-action"><div class="span6"> <span class="he16-cpu"></span> <span class="small nomargin">100%</span><br></div>
+<div class="span6" style="text-align: right;"><a href="processes?pid=34543390&amp;action=pause"><span class="he16-play heicon"></span></a><a href="processes?pid=34543390&amp;del=1"><span class="he16-cancel heicon"></span></a><br>
+<span id="complete34543390"></span></div></div><div style="clear:both;"></div></li></ul> </div>

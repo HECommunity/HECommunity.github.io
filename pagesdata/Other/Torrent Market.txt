@@ -1,0 +1,6 @@
+<div class="span12">
+<p>Server 17.214.45.165 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+F.L.I.E.N.D.S (1.0) - <span class="green">$0.1</span><span class="small nomargin"> / GB</span><br>
+Winblows 8.1 (2.0) - <span class="green">$0.2</span><span class="small nomargin"> / GB</span><br>
+Fotoshop CS6 (3.0) - <span class="green">$0.3</span><span class="small nomargin"> / GB</span>
+</div>

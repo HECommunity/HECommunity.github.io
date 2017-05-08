@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 206.211.30.54 is <font color="green"><b>online</b></font><span class="label label-inverse pull-right">Bank</span></p>
+<p>Welcome to the <strong>First International Bank</strong>.<br><br>We have a very modest defense, but at least you didn't have to pay for an account.<br><br><a href="internet?action=login&amp;type=bank">Login to your account</a>.</p>
+</div>

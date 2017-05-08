@@ -1,0 +1,58 @@
+<div class="span12">
+<p>Server 160.7.191.179 is <font color="green"><b>online</b></font><span class="label label-inverse pull-right">Bitcoin Market</span></p>
+<div class="row-fluid">
+<div class="span8">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-btc"></span></span>
+<h5>Bitcoin Actions</h5>
+</div>
+<div class="alert alert-success nomargin">
+<center>Only public information is logged!</center>
+</div>
+<div class="widget-content padding center">
+<ul class="quick-actions">
+<li id="btc-buy" class="link">
+<a>
+<i class="icon- he32-btc-buy"></i>
+Buy Bitcoins <br>
+<span class="small">for <span class="green">$1599</span></span>
+</a>
+</li>
+<li id="btc-sell" class="link">
+<a>
+<i class="icon- he32-btc-sell"></i>
+Sell Bitcoins <br>
+<span class="small">for <span class="green">$1599</span></span>
+</a>
+</li>
+<li id="btc-transfer" class="link">
+<a>
+<i class="icon- he32-btc-transfer"></i>
+Transfer Bitcoins <br>
+<span class="small">No fees!</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-bank_bag"></span></span>
+<h5>Wallet Overview</h5>
+</div>
+<div class="widget-content padding center">
+<div style="overflow: hidden;">
+<strong>Address:</strong> <br>1wY9t29AWcDRhGJEWdSxO08x9DPfAgLDNJ<br><br>
+<strong>Bitcoins:</strong> <br>0.0000000 BTC<br><br>
+<btn id="btc-logout" class="btn btn-info">Log out</btn>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span id="modal" class="center"></span>
+<script type="text/javascript">var logged=true;</script>
+</div>

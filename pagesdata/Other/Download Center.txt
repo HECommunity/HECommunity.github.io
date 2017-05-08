@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 241.151.9.102 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p>Welcome to the download center! <br><br> Download whatever you need. Unlimited bandwidth! <br><br> <strong>Username:</strong> download<br><strong>Password:</strong> download</p>
+</div>

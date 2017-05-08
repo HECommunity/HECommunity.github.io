@@ -1,0 +1,7 @@
+<div class="span12">
+<p>Server 1.158.201.174 is <font color="green"><b>online</b></font><span class="label label-important pull-right">ISP</span></p>
+HEX Internet Service Provider - ISP<br><br>You can reset your IP <b>for free</b>!<br><br>If you are launching a doom attack, <strong>reseting your IP will abort the doom virus</strong>! <br><br>
+<form action="resetIP" method="POST">
+<input class="btn btn-success" type="submit" value="Reset free ">
+</form>
+</div>

@@ -1,0 +1,8 @@
+<ul class="list"><li><div class="span4 processBlock34543451"><div class="proc-desc">Crack server <a href="internet?ip=206.128.223.106">206.128.223.106</a></div></div><div class="span5">
+<div id="process0">
+<div class="percent"><b>22.5%</b></div>
+<div class="pbar ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="ui-progressbar-value ui-widget-header ui-corner-left" style="display: none; width: 22.513%;"></div></div>
+<div class="elapsed">0h:0m:46s</div>
+</div></div><div class="span3 proc-action"><div class="span6"> <span class="he16-cpu"></span> <span class="small nomargin">50%</span><br></div>
+<div class="span6" style="text-align: right;"><a href="processes?pid=34543451&amp;action=pause"><span class="he16-play heicon"></span></a><a href="processes?pid=34543451&amp;del=1"><span class="he16-cancel heicon"></span></a><br>
+<span id="complete34543451"></span></div></div><div style="clear:both;"></div></li></ul>

@@ -1,0 +1,71 @@
+<div class="span12">
+<p>Server 160.7.191.179 is <font color="green"><b>online</b></font><span class="label label-inverse pull-right">Bitcoin Market</span></p>
+<div class="row-fluid">
+<div class="span8">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-btc"></span></span>
+<h5>Bitcoin Actions</h5>
+</div>
+<div class="alert alert-success nomargin">
+<center>Only public information is logged!</center>
+</div>
+<div class="widget-content padding center">
+<ul class="quick-actions">
+<li id="btc-buy" class="unlogged unlogged-tip">
+<a>
+<i class="icon- he32-btc-buy"></i>
+Buy Bitcoins <br>
+<span class="small">for <span class="green">$1599</span></span>
+</a>
+</li>
+<li id="btc-sell" class="unlogged unlogged-tip">
+<a>
+<i class="icon- he32-btc-sell"></i>
+Sell Bitcoins <br>
+<span class="small">for <span class="green">$1599</span></span>
+</a>
+</li>
+<li id="btc-transfer" class="unlogged unlogged-tip">
+<a>
+<i class="icon- he32-btc-transfer"></i>
+Transfer Bitcoins <br>
+<span class="small">No fees!</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="span4">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-bank_bag"></span></span>
+<h5>Wallet Login</h5>
+</div>
+<div class="alert alert-success nomargin">
+<center>Anonymous login!</center>
+</div>
+<div class="widget-content padding center">
+<div class="control-group">
+<div class="controls">
+<div class="input-prepend">
+<span class="add-on"><i class="fa fa-user"></i></span><input type="text" id="btc-address" name="address" placeholder="Address" style="width: 80%" value="1wY9t29AWcDRhGJEWdSxO08x9DPfAgLDNJ"><br>
+</div>
+</div>
+</div>
+<div class="control-group">
+<div class="controls">
+<div class="input-prepend">
+<span class="add-on"><i class="fa fa-lock"></i></span><input type="password" id="btc-key" name="key" placeholder="Private Key" style="width: 80%" value="privatekey"><br>
+</div>
+</div>
+</div>
+<btn id="btc-login" class="btn btn-inverse">Login</btn>
+</div>
+</div>
+</div>
+</div>
+<span id="modal" class="center"></span>
+<script type="text/javascript">var logged=false;</script>
+</div>
