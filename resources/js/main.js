@@ -500,7 +500,7 @@ $(document).ready(function() {
             });
         }
         if ($('body').hasClass('history')) {
-            if (!$('body').hasClass('tutorial')) {
+/*            if (!$('body').hasClass('tutorial')) {
                 if (typeof(tellpz) !== 'undefined') {
                     gritterNotify({
                         title: pztitle,
@@ -518,7 +518,7 @@ $(document).ready(function() {
                             sticky: true
                         });
                     }
-                }, 1000);
+                }, 1000); */
             }
 
             function doLoad(callback) {
