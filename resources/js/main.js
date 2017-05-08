@@ -2101,4 +2101,11 @@ $(document).ready(function() {
             });
         }
     }
+	
+gritterNotify({
+	title: "WIP - Work in Progress",
+	text: "The game does not work yet! Please help us to make a backend server for this frontend",
+	img: '',
+	sticky: true
+});
 });
