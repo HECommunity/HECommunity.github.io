@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 61.8.217.234 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p></p><div class="center"><img alt="Very Cheesy Pictures" title="Very Cheesy Pictures" src="images/npc/xverycheesypictures.jpg.pagespeed.ic.U3BhrQd38v.webp"><br><br></div><p></p>
+</div>

@@ -1,0 +1,69 @@
+136.204.64.26
+
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"></span>
+<span id="puzzle-isSolved" value="false"></span>
+<h3>Question &amp; Answer</h3>
+<div style="text-align: left;">
+<strong>Puzzle: </strong>
+A farmer went to your bank to ask for a loan. The bank agreed on offering $100 as long as the farmer would be able to buy exactly 100 animals with those $100.<br><br>The only rule of the agreement was that the farmer would buy at least one of each of the following animals: ox, pigs and sheeps. Each ox costs $10. Each pigs costs $3, and the sheeps costs, each, $0.50. How many animals of each kind did the farmer buy?<br><br><strong>Note: </strong>Separate the answer using commas. E.g.: 'X, Y, Z' (X ox, Y pigs and Z sheeps) </div>
+<br><div class="alert alert-success">Yay! '<strong>5, 1, 94</strong>' is the correct answer!<br><br>The next puzzle is located at <strong><a href="internet?ip=144.165.182.188">144.165.182.188</a></strong></div> </div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next"><a href="internet?ip=144.165.182.188">144.165.182.188</a></span><br>
+</div>
+<div class="puzzle-result puzzle-win">
+<span id="puzzle-status">SOLVED!</span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">428</span> players solved this riddle<br>
+<span class="puzzle-tie">7</span> players are stuck here<br>
+<span class="red">2,158</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+Crazy Banker was developed by <a href="http://rachacuca.com.br">RachaCuca</a> </div>
+</div>
+</div>
+</div>

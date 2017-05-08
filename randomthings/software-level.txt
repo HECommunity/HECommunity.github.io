@@ -3,5 +3,6 @@ Basic Hasher.hash	1.4
 Generic Spam.vspam	1.5
 Generic Cracker.crc	1.5
 Decent Cracker.crc      2.0
+Intermediate Spam.vspam	3.0
 Competent Miner.vminer	4.0
 Advanced Miner.vminer   5.0

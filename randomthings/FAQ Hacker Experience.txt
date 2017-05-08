@@ -1,0 +1,607 @@
+A complete list of all answers you will ever need regarding Hacker Experience.
+
+
+
+Good thing that jPessimist made a post that was stickied. You can find his FAQ, Tips, and Tutorials post [color=#FF0000]over here[/color] rip jPessimist's thread.
+
+Although, this post will contain all the data from jPessimist's post, it will go into depth on the FAQ, updated Tips, as well as Tutorials. It will also include useful things for beginners like a Quick Start section that covers the bare bones basics, and strategies/tips for grizzled veterans.
+
+If you would like to contribute anything to this guide, by all means, post about it. I'll try to get around to adding it.
+
+[code]Contents:
+ctrl+f, and paste the line into the search bar there to jump to a section
+
+1/ Quick Start
+2/ FAQ
+   2.1/ Localhost (your own server) related
+   2.2/ Clan related
+   2.3/ Mission related
+   2.4/ Virus related
+   2.5/ General questions
+   2.6/ Questions related to other servers
+   2.7/ Research related
+   2.8/ Money related
+   2.9/ FBI and Safenet related
+   2.10/ Puzzle related
+   2.11/ Unsorted questions
+3/ Software Directory
+   3.1/ Major softwares
+      3.11/ Cracker (.crc)
+      3.12/ Hasher (.hash)
+      3.13/ Exploits (.exp & .scan)
+      3.14/ Firewall (.fwl)
+   3.2/ Secondary softwares
+      3.21/ Hidder (.hdr)
+      3.22/ Seeker (.skr)
+      3.23/ Nmap (.nmap)
+      3.24/ Antivirus (.av)
+   3.3/ Viruses
+      3.31/ Spam (.vspam)
+      3.32/ Miner (.vminer)
+      3.33/ Warez (.vwarez)
+      3.34/ DDoS (.vddos)
+      3.35/ Doom (.doom)
+   3.4/ Money & Other
+      3.41/ Virus Collector (.vcol)
+      3.42/ Torrents (.torrent)
+      3.43/ DDoS Breaker (.vbrk)
+      3.44/ Analyzer (.ana)
+   3.5/ Executables
+4/ Tips, Strategies, and Useful Stuff
+   4.1/ Links
+   4.2/ Profile Badges
+   4.3/ Tips & Strategies[/code]
+
+[size=200][b]1/ Quick Start[/b][/size]
+
+[img]http://i.imgur.com/CAL7raO.png[/img]
+
+[size=200][b]2/ FAQ[/b][/size]
+
+[size=150]   2.1/ Localhost (your own server) related[/size]
+
+[code]Q: My HDD is empty, my hacked database is empty, my money is gone, everything is gone! What happened?
+A: Don't freak out, it happened to everyone. The round was reset. Rounds last a length of time, usually lasting over 2 months and the timer for it can be seen on the Home tab in the top left of the screen. Rounds end when someone successfully activates the doom virus, and lasts the full 6 hours without players destroying the culprit's servers. When the timer for Doom completes, a brief breathing period is given between rounds to announce the winner and distribute end-of-round achievements. Afterwards, a new round is started, and everyone starts from scratch, as if they had just created their account.
+
+Q: I can't run my anti virus/other software even though I have enough ram?
+A: It's quite possible that you have other softwares installed that also require RAM. Check https://legacy.hackerexperience.com/processes?page=running (Running Softwares tab in Task Manager) to see if you have any softwares currently using RAM. Another possibility is that you don't have enough RAM to run the antivirus software. For this case, consider purchasing RAM for your servers through the Hardware Tab located on the menu on the left. If you have enough free RAM to run the antivirus, and you still are unable to run it, this is a known bug that is on the backburner for being fixed. Possible fixes to the bug include using the format option from your Softwares Tab, or buying more RAM using the Hardware Tab. Be warned though, formatting will 100% delete all softwares on your servers. The bug is caused by deleting a software that takes up RAM, without uninstalling it first.
+
+Q: I can't format my HDD. When the process completes, nothing happens. What the?
+A: This issue was recently addressed and fixed. But for those wondering, this used to be due to people having folders in their softwares, you used to be unable to format with folders still on your harddrive. If this issue is still a problem for you, please remove all softwares outside of the folders first, and click the empty space after display that tells you how many files a folder has under 'Action'. This will delete the folder if it has no softwares in it. Another possibility at the time was manually deleting the folder by doing the command by URL which was shown in another help thread (https://forum.hackerexperience.com/viewtopic.php?f=23&t=4606) but the fix created unintended bugs, and was patched as well.
+
+Q: I can't delete folders! Why?
+A: Refer to the above answer, you may now delete folders by selecting the blank space immediately after the area that tells you how many files a folder has under the 'Action' column. Another way of deleting a folder is by clicking the 'Delete Folder' button that is available when you view the contents of a folder. As a last resort, you can also delete folders using the format option available on the Softwares Tab if you so wish.
+
+Q: All my files are hidden! What do I do?
+A: Someone has hidden your softwares from you. There are a couple of ways to get yourself out of such a mess, so I'll list the best actions to last resorts in order. Best thing to do is to do an IP reset, this will prevent any further damage from being done to you considering your IP has been public enough for someone to do a large amount of damage, and consider being more careful on how your IP gets around from now on. You can do an IP reset by visiting the Internet Service Provider (ISP) IP located on the 1st Whois (1.2.3.4). If you've recently done an IP reset, you may need to pay a fee, or wait a bit before you can do this. Your second option is to seek assistance from a stronger player through the use of the in-game e-mail system, through the forums, or search for and install a Seeker software, which will allow you to view your softwares again if the said Seeker software is stronger than the enemy's Hidder software. Your third option is to format. This will remove all softwares and viruses from your servers, but it will allow you to use the room on your harddrive again.
+
+Q: I lost my cracker! Am I screwed?
+A: Not at all. There is an IP for Download Centre located on the First Whois (1.2.3.4) that offers 1.0 versions of all softwares, free for public downloading without the need to hack into it. The username and password for the IP are both 'download'. Just download a 1.0 Cracker software from Download Centre, and you can get back into the game.
+
+Q: If I get DDoS'ed, will my servers be deleted?
+A: When you buy a server, it is permanent. You will always keep your servers. However, upgrades applied to your servers through the Hardware Tab may have been downgraded from the attacks. You will need to re-apply upgrades to your servers if you wish to use them at your previous capacity. Your internet speed can also be downgraded in the same fashion, so do not forget to re-apply internet upgrades as well.
+
+Q: I have viruses on my server. I can't do anything with them except view information about them, and hide them. What's wrong?
+A: If the icon for the viruses contain an exclamation mark over top of them, that means that the virus was installed on your servers, and someone else is profiting off of its existence, depending on the nature of the virus. You must run an Antivirus software on your server that is of equal version level or greater version level than that of the virus. This will remove any viruses of the same level and lower from your server.
+
+Q: I have enough space to download this software, yet it tells me I don't have enough. What the?
+A: The usual culprit for this happening is that you have hidden softwares on your server. Whether it be installed viruses from other players, or your own software hidden. Consider running an Antivirus software, or getting a better Seeker software to view hidden softwares on your server. Alternatively, purchase more storage space for your servers by using the Hardware Tab on the left side menu.
+
+Q: When I try to upload software to my external HDD, it says that the software isn't supported. What's that supposed to mean?
+A: This is a funky way of the game saying that you don't have enough free space on your external harddrive. Try deleting some unnecessary software off of it first, or purchase more external harddrives/space using the Hardware Tab on the left side menu.
+
+Q: How do I reset my IP?
+A:  You can do an IP reset by visiting the Internet Service Provider (ISP) IP located on the 1st Whois (1.2.3.4). If you've recently done an IP reset, you may need to pay a fee, or wait a bit before you can do this. What this does, is changes the IP that is assigned to you in the top-right corner for most pages of the game. If players have your IP, they will find that they can no longer find you if you change your IP through the use of an IP reset.
+
+Q: Does my anti virus delete hidden viruses?
+A: Yes! The Antivirus software deletes all viruses on your servers that are of equal version level or lower version level to your Antivirus software. Whether said viruses be hidden, or not. If you think people have your IP, it doesn't hurt to run your Antivirus software religiously now and again just to double check. Antivirus softwares will not delete viruses that are not installed, or viruses that are hidden but not installed.
+
+Q: I get the following error when trying to clear a log: 'There already is a log edit in progress.'. How do I fix it?
+A: Your game session may have lagged, and it moved the log edit task to your Task Manager. Try checking the Task Manager Tab in the menu on the left, and complete the process from there.
+
+Q: How do I reset my in-game password?
+A: If you click the Home Tab on the left side menu, your current password will be located in the top-right side of the screen, underneath your IP. It will look like a bunch of random letters and numbers, and then [Change] next to it. Click the [Change] area to change your password to your servers in-game. This is useful if another player is stalking you and don't have the necessary software to hack into you.
+
+Q: I went to my hacked database and saw a message saying: 'Virus [your virus] is not responding anymore from [insert IP].' Why?
+A: Bad news kiddo, someone cut ties between you and your virus. It can be one of two reasons. The first reason is that the target ran an Antivirus software against your virus, and won. You may need to revisit the IP and install a stronger virus than their antivirus if this is the case. The second reason is that they did a format, deleting all softwares off of their server, including viruses. You are free to reinstall a virus on them if their IP is still available.
+
+Q: I went to my hacked database and saw a message saying '[insert IP] is not responding anymore'. Why?
+A: The target IP has done an IP reset. The IP that you have is no longer available. There's nothing you can do about this, so it's just best to ignore all error messages of this type.
+
+Q: I went to my hacked database and saw a message saying '[insert IP] changed password.' Why?
+A: The target IP has changed the password to their servers. You will need to hack them again if you ever want to gain access again to their servers.
+
+Q: How safe is my external HDD?
+A: 5000% safe. No one can go in or out or even view it, except for you. DDoS attacks also do not affect external harddrives, so consider backing up software you can't live without to them.
+
+Q: I'm trying to download a piece of software, but I get a message saying I already have it, when in fact I don't?
+A: You probably have the software already, but it's either hidden from your view through the use of a Hidder software, or misplaced in your server. In a folder perhaps? The issue is usually the former. Consider getting a stronger Seeker software installed on your server, so you may view hidden softwares that other players hide from you.
+
+Q: What happens if I format my HDD?
+A: All softwares, including viruses, hidden softwares, hidden viruses, folders, the whole lot, will be deleted and removed. It's a clean slate. Hardware upgrades and internet upgrades are not affected.
+
+Q: What happens if I reset my IP?
+A: You will get a brand new, never before used IP from the game. Anyone who previously had your IP will no longer be able to find or access you, and if they were logged into you, will be kicked from your server, unable to get back in until they have your new IP that was given to you. Any other players that have viruses installed on you will not benefit from the viruses that exist on your harddrive (if any).[/code]
+
+[size=150]   2.2/ Clan related[/size]
+
+[code]Q: I can't delete my clan, what do I do?
+A: There isn't a definitive way to permanently delete your clan yet, but you can somewhat disband a clan by everyone agreeing to leave the clan in advance. You can then re-make a new clan from there, but the data from the old clan will still exist, and you cannot re-make a 100% identical copy to your previous clan. jPessimist's answer to this issue is to go to HE's facebook page (https://www.facebook.com/groups/hackerexperiencebrasil). Scroll down and you'll find a post by Rafael Lanna regarding clan deletion. Comment your clan tag and clan name and wait for Renato to delete your clan. (His post isn't in English, just look for a post with clan tags and names commented). You could also try messaging Renato directly by sending an in-game e-mail to him, but it is very unlikely that he will respond.
+
+Q: Why do some clan servers record logs, and others don't?
+A: Clans that were created in a previous round do not contain logs. It's a benefit for some and a curse for others. On one hand, no one can leave bad traces to themselves by logging their clan server. The curse, is that they won't know the IP of any enemies that log their clan server and start wrecking havoc.
+
+Q: My clan is involved in a war. Our enemies reset their IPs. How do I win the war?
+A: If all of your enemies have reset their IP's, there is no way to contribute to your clan for the war without finding their new IP's and DDoSing them that way, unfortunately. If you're lucky, you can try to find their clan server IP, as they cannot reset their clan server's IP.
+
+Q: Is my clan sub-forum public, or accessible by clan members only?
+A: The clan sub-forum is public, everyone can read posts created by members of your clan. Although, I think the sub-forums have quite recently been removed, as no one uses them.
+
+Q: I can not edit my clan members privileges. Why not?
+A: The feature has not been implemented yet. All members of a clan are treated as members, with the one clan member being the leader of the clan, with the priviledge to accept invites, reject requests, and remove people from the clan at their leisure.
+
+Q: How do I reset the my clan servers IP?
+A: You cannot change your Clan server's IP. Please take very good care of it.
+
+Q: How do I edit my clan description?
+A: You can edit your clan's description through the clan admin page (https://legacy.hackerexperience.com/clan?action=admin). Only the leader of the clan is allowed to make changes to it though.
+
+Q: How do I gain reputation points for my clan?
+A: You can gain reputation points for your clan by DDoSing other players. You can earn bonus points to your clan if the target that you're DDoSing is involved in a clan war with your clan.
+
+Q: How do clan wars work? How do I start one? How do I win one?
+A: The goal of a clan war is to do the most damage to the other clan in the form of DDoS. During this DDoSing, a pool of money is generated depending on the severity of the DDoSes. At the end of the war, the clan that has done the most damage, wins the pool of money, divided by the people who contributed to the clan war. A clan war is automatically started when 2 clan members from opposing clans DDoS clan members of the opposite clan, within a time span no less than 72 hours (3 days) apart. They can be each other, or different members from themselves. This will create a clan war page for both clans, of which can be accessed by your Clan Tab on the left side menu. This page tracks damage done between clans, the size of the money pool, which clan is winning, as well as how much time is left for the clan war. You win a clan war when the timer runs out, and your clan has earned the most reputation from DDoSing the other clan.[/code]
+
+[size=150]   2.3/ Mission related[/size]
+
+[code]Q: All my missions are hidden. What do I do?
+A: In order to even accept missions from individuals, you must hack into their corresponding servers. On the right side of the screen in the MIssions Tab, it tells you your Mission Level. Your Mission Level is determined by your current Cracker software level. If your Cracker is software version 2.9 or lower, your Mission Level is 1, and the IP's you must hack into in order to do Level 1 Missions are located on the First Whois (1.2.3.4). Level 2 Missions are Available when your Cracker software version is between 3.0 and 5.9. In order to unlock Level 2 Missions, you must hack into IP's available on the Second Whois (available through the puzzle trail, connected to the First Whois). Level 3 Missions are for players who have a Cracker software version 6.0 or higher. The first IP will be available for you on the Missions Tab (Sexsi) near the top of the page. Accept missions from them in order to find other mission providers.
+
+Q: I've been assigned a mission. I'm supposed to delete software from a server, but that software doesn't exist?
+A: Someone may have beaten you to it, or had a similar mission but from a different supplier. Your choices are to wait for the software reset (which is shown below HDD Usage in their Softwares tab), or upload an exact copy of the software you're supposed to be deleting to the mission IP, and delete that after you finish uploading it.
+
+Q: I've been assigned a mission. I'm supposed to steal software. The specified server doesn't have the software, and the other server doesn't have enough space for the software to be uploaded?
+A: Again, these are situations where people beat you to it with a similar mission that either required them to delete the exact same software, or DDoS the server that you are required to upload the software to. I'm afraid your only choice here is to wait for software resets, and hardware resets respectively for both cases, or abort the mission.
+
+Q: I've been assigned a misson. I'm supposed to DDoS a server and seize it. I've attacked it more than twice, I still can't complete the missions?
+A: You may not be doing enough damage to the server. The mission is completed when you've done 100% damage to the Mission IP, and then hit it with a DDoS one more time. Consider using more DDoS viruses. About 10 should work just fine for missions.[/code]
+
+[size=150]   2.4/ Virus related[/size]
+
+[code]Q: Where can I find viruses?
+A: You can find them on other players, you can find them on puzzle trails, and you can find them on Mission IP's. Viruses, of all levels, varying strengths, weaknesses, and different types.
+
+Q: But I can't find this specific type of virus!
+A: Keep looking. Actual players will build up a wide variety of viruses and a nice cache of them, so you can pick your poison if you spot an active player. However, if you cannot find one, all viruses of different levels are available in both the puzzle trails, and available in some Mission IP's. You'll find them, eventually.
+
+Q: Does my money generating virus version matter?
+A: No. It's highly debated among players, almost religiously, but there just isn't enough evidence to make the solid claim of whether or not the virus version matters, but signs point to no. The only time a virus version matters, is most likely for the sake of being the version that the Antivirus software has to be better than in order to remove the virus. That, and how much space the virus takes up.
+
+Q: Where can I find this virus?
+A: I've created a google spreadsheet that everyone should be able to view. A full loadout of all softwares and where they're located is available at this link. https://docs.google.com/spreadsheets/d/1WH8t0yRhKNgIdf8pEB2NqKDsLeyuDfQjo68n2YwotKQ/edit?usp=sharing[/code]
+
+[size=150]   2.5/ General questions[/size]
+
+[code]Q: My HDD is empty, my hacked database is empty, my money is gone, everything is gone! What happened?
+A: Don't freak out, it happened to everyone. The round was reset. Rounds last a length of time, usually lasting over 2 months and the timer for it can be seen on the Home tab in the top left of the screen. Rounds end when someone successfully activates the doom virus, and lasts the full 6 hours without players destroying the culprit's servers. When the timer for Doom completes, a brief breathing period is given between rounds to announce the winner and distribute end-of-round achievements. Afterwards, a new round is started, and everyone starts from scratch, as if they had just created their account.
+
+Q: How do I gain reputation?
+A: Contribute to the world of Hacker Experience. Do what you can to make a living, do damage, hack, steal, profit. Almost anything you can think of will net you reputation.
+
+Q: Is it worth completing all certifications?
+A: Absolutely. The final certificate enables extra defenses against DDoS attacks, and you carry over those benefits after the round ends. You definitely do not want to be skipping out on undone certificates.
+
+Q: How do I change my profile picture?
+A: https://legacy.hackerexperience.com/profile?view=edit will allow you to upload an image. The image you upload will be your new profile picture. It will take some time for the website to update it, but trust me on this, it will.
+
+Q: How much can a single DDoS attack wipe?
+A: A single DDoS attack at most can completely destroy 1 server's upgrades, and bring the internet speed back down to 1Mbit/s if applicable. Also, if the server's harddrive space is nearly full, it will delete software off of the harddrive starting with the software that takes up the most space, in order to the software that takes up the least space, until it can sustain itself again without taking up too much harddrive space.
+
+Q: There is this riddle I can't solve. I can't find the solution on the forums, what do I do?
+A: Google is your friend. Almost all puzzles have been solved by Google, it's just a search away. If Google for some reason doesn't have it, then try asking a friend, or a strong player for assistance.
+
+Q: I'm looking for a specific software. Where can I find it? Where can I find this software?
+A: I've created a google spreadsheet that everyone should be able to view. A full loadout of all softwares and where they're located is available at this link. https://docs.google.com/spreadsheets/d/1WH8t0yRhKNgIdf8pEB2NqKDsLeyuDfQjo68n2YwotKQ/edit?usp=sharing[/code]
+
+[size=150]   2.6/ Questions related to other servers[/size]
+
+[code]Q: I can hack the NSA, but there's no doom virus at their server?
+A: Doom virus is not enabled by default. The event must be triggered by an Administrator. When the event is triggered, anyone who researches a crc that is software version level 80.0 or higher, will get a job offer that will enable them to view the Doom virus on NSA's server's.
+
+Q: I get the following error when trying to clear a log: 'There already is a log edit in progress.'. How do I fix it?
+A: Your game session may have lagged, and it moved the log edit task to your Task Manager. Try checking the Task Manager Tab in the menu on the left, and complete the process from there.
+
+Q: I can't upload software/virus to one of my victims; not enough space; yet there is?
+A: There is a good chance that there is hidden software and hidden viruses on the server that you cannot see, due to your Seeker software not being strong enough to view the hidden software. I recommend making a guess on a smaller virus that you can use, use an Antivirus software, or upgrade your Seeker software to a better version.
+
+Q: What are the strongest NPC softwares in the game?
+A: The strongest Cracker software is a 5.9 on a Level 2 Mission IP. The strongest hash and firewalls are 10.0, both from Numataka Corporation. NSA uses an 80.0 hash, but it's better to research the 10.0 hash as a base, since the 10.0 hash is the 2nd strongest hash in the game available by NPC's. The strongest FTP Exploit is a 6.3 from a Level 2 Mission IP. SSH Exploit is 4.6 from again, another Level 2 Mission IP. Strongest DDoS Virus and Virus Breaker (both 3.0) come from the 6th IP in the Lorem Ipsum range of puzzle IP's, Antivirus is 5.0 from the 5th IP in the Hangman range of puzzle IP's, Virus Collector is the 6th IP in the same range, and everything else is from the Second Whois, except for the vminer. There is a 10.0 vminer located at Bitcoin Market.[/code]
+
+[size=150]   2.7/ Research related[/size]
+
+[code]Q: What are the benefits of researching the DDoS Breaker?
+A: Oh my god. This is the most religious debate in the entire game. Bottom line, there's many better things out there to research other than the DDoS Breaker. Things that do make a difference. But for right now, the community is undecided on whether or not researching the DDoS Breaker actually does anything.
+
+Q: How do I research my [software]?
+A: The first step to calling a software your own, is to buy a license for the software. This can be done by clicking the blue circular 'i' icon under the 'Actions' column in your Softwares Tab. Buying a license costs money, and how much it costs is based on what version level the software is. After you have bought the license for the software that you want to research, you can research the software by clicking the University Tab on the left side menu. A drop down list will be available there showing all the softwares that you own licenses for. From there, you can rename the software, delete the old version of it or not, and begin researching your software.
+
+Q: Should I research this software? What software is best for me to research?
+A: It's entirely up to you. Although, I would recommend you visit the software leaderboards for the current round to see what kind of softwares are already present in-game. If you're going to research a 10.0 firewall when there's already 20.0 firewalls and 40.0 firewalls being thrown about, it might not be worth it to research a firewall that low of a level, since it could just be easier to steal a better one from someone else. You can view individual software leaderboards by using https://legacy.hackerexperience.com/ranking?show=software&orderby=  fill in the final part of the URL with the software extension of your choice, such as .crc, .hash, .fwl, or .exp.[/code]
+
+[size=150]   2.8/ Money related[/size]
+
+[code]Q: How do I reset my Bitcoin wallet password?
+A: Unfortunately, you cannot at this time. It's been put on wishlist for right now, but hasn't been implemented yet.
+
+Q: How do I steal someones Bitcoins?
+A: You must obtain their bitcoin username and password. The only way to do this right now, is to wait for them on their own server, to log into their bitcoin account. The bitcoin market is 100% anonymous, so you will not find username and password info there. The only way to get it is to directly find someone logging into it.
+
+Q: If I login to someones wallet and steal their Bitcoins, will my IP be logged?
+A: Considering that the bitcoin market is 100% anonymous, no. Your IP will not be logged for logging into someone's bitcoin account and stealing their bitcoins. That being said, the username and password for the bitcoin account will be published in your local logs though.
+
+Q: How do I make my bank account(s) safe after someone hacks them?
+A: You need to close your account and create a new one. Navigate to the bank, login to your account, and click the 'Close account' button to the right (Your account must be COMPLETELY empty). Log out from the bank and create a new one. Keep in mind that when you log in to your bank account, your IP will be logged at the bank, so try not to log into your own bank account. If you purchase something or accept money from somewhere through a drop down menu, then it will only publish the logs and the transaction in your local logs.
+
+Q: Where can I find Swiss Bank and Ultimate Bank?
+A: You can find them by stealing logs from other players and stumbling upon it if the IP for those banks are already leaked out. Or, get it the way that got the IP for those places leaked in the first place, and accept bank job offers from Level 2 or Level 3 Mission's. Both the IP's for those banks are in circulation for those two mission levels.
+
+Q: When I create a new bank account, does it publish my IP to logs? Can I be tracked?
+A: No. When you create a new bank account, for whatever reasons, it does not notify of it in your local logs, or the bank's logs. It only displays info in your local logs if you make a purchase with that account, or if you log into the bank account and transfer money from one account to another, it will display that info in both the local logs and the bank's logs.[/code]
+
+[size=150]   2.9/ FBI and Safenet related[/size]
+
+[code]Q: How do I seize FBI suspects?
+A: Same rules apply as if it were a Mission IP. You must hack into their server, and DDoS them until you can no longer do damage to them. If successful, you will be paid the full bounty on their heads by the FBI. You can view people's bounties by visiting the FBI's IP on the First Whois (1.2.3.4).
+
+Q: What actions will land me on the FBI most wanted list?
+A: DDoS'ing, deleting other players software, and transferring (stealing) money will get you onto the list. Normally, you may go on Safenet's list first, but if you're unlucky, you can be put directly onto FBI's wanted list.
+
+Q: How much does the FBI offer at most for a single suspect?
+A: $500,000 for DDoS, $500,000 for transferring money, and $500,000 for deleting softwares. However, transferring money and deleting software are only temporary bounties. DDoS is the only permanent bounty, and will stay there until the owner does an IP reset.[/code]
+
+[size=150]   2.10/ Puzzle related[/size]
+
+[code]Q: What is the answer to this puzzle? Can anyone tell me?
+A: Unfortunately, no. We can't. It's against the forum's rules to tell other people the answer's to puzzles. If you've officially given up on the question, the best suggestion I can tell you is to follow everyone else that gets told this exactly same stuff; Google the question! The question has been copy and pasted into Google so many times that it practically spits out the answer. You don't need any special skills to solve the puzzles, just some Google know-how.
+
+Q: I can't get past the 2048 puzzle! The highest I can get is 256 or 512 and then I lose..
+A: Yeah, not very many people can get past the 2048 puzzle... Here's a trick though that will get you past it: You get a hint in the form of 1-digit added to the next IP address every time you complete a 256 block in 2048. Use this to your advantage, and exit the puzzle to softwares. Return to the puzzle, and restart your progress. You will get another hint every time you get a 256 this way. Just keep doing that until you get the full IP that you have to visit next.
+
+Q: I can't get past the light puzzle! It tells me to turn the lights on, but I have no idea what it means!
+A: I will give you a hint in saying that if you have gotten far enough to get to this puzzle, you already have the IP that the puzzle gives you. Just think about what IP's you have access to, that you haven't hacked into yet. If you know the layout of the puzzles, there isn't much of a reason to complete this puzzle. However, if you still want to complete it, this thread (https://forum.hackerexperience.com/viewtopic.php?f=25&t=1871) has a working fix for the puzzle. Just make sure to follow the steps over there correctly, and the puzzle should be working.
+
+Q: I did all the puzzles, why can't I get to the Third Whois, or the Fourth Whois?
+A: Renato ran out of puzzle ideas and couldn't get together the puzzle IP's for a Third & Fourth Whois. The result, a maximum of Level 3 Missions, and access to Third & Fourth Whois banks by doing Level 3 Missions. There is a Third Whois and Fourth Whois, but they are private and there is no way for the public to access them. It's not like there's anything important on them anyway. The only things important on them are IP's for Swiss Bank, and Ultimate Bank, both of which can be found by doing Level 3 bank-related Missions.[/code]
+
+[size=150]   2.11/ Unsorted questions[/size]
+
+[code]Q: What's the best way to earn money?
+A: Install as many viruses as humanly possible. The more IP's you have behind you, supporting you, the more money you will make obviously. For assistance on what's the best formula on which viruses to use and when, refer to my thread that I posted on the matter. (https://forum.hackerexperience.com/viewtopic.php?f=23&t=6799)
+
+Q: How do you hack so many IPs?
+A: Most people will collect DDoS logs from other players, which list all the IP's that someone has used in order to do a DDoS attack against someone else, or upload, and install an Nmap software to an NPC IP, in hoping they can get a decent list of IP's of people that have connected to it recently. But above any of these, the best way to get a large amount of IP's hacked, is to use the official Firewires parser that has been approved for use by Renato. Link for it is available here (https://ff66179fe3540df57a125950cc2b86cc62277b6f.googledrive.com/host/0B5kX1uxxxbCITURhVnBtSjFTYUk/) and copy-pasting many people's logs to be placed in a text file, to be looked through later. Pretty much what it does, is it's a filter that can find new IP's that you didn't have before, and save you the trouble of getting the bulk IP from a gigantic log of IP's. It also saves you the trouble of remembering which IP's you already copy and pasted to your list, or have already visited.[/code]
+
+[size=200][b]3/ Software Directory[/b][/size]
+
+[size=85][i]   3.1/ Major softwares[/i][/size]
+[size=150]   3.11/ Cracker (.crc)[/size]
+
+[img]http://i.imgur.com/SDFUotS.png[/img]
+
+[size=150]   3.12/ Hasher (.hash)[/size]
+
+[img]http://i.imgur.com/SET7svd.png[/img]
+
+[size=150]   3.13/ Exploits (.exp & .scan)[/size]
+
+[img]http://i.imgur.com/wjH0IC3.png[/img]
+
+[size=150]   3.14/ Firewall (.fwl)[/size]
+
+[img]http://i.imgur.com/qeRHqqv.png[/img]
+
+[size=85][i]   3.2/ Secondary softwares[/i][/size]
+[size=150]   3.21/ Hidder (.hdr)[/size]
+
+[img]http://i.imgur.com/nInZueA.png[/img]
+
+[size=150]   3.22/ Seeker (.skr)[/size]
+
+[img]http://i.imgur.com/uITIjsr.png[/img]
+
+[size=150]   3.23/ Nmap (.nmap)[/size]
+
+[img]http://i.imgur.com/dtJ3u2x.png[/img]
+
+[size=150]   3.24/ Antivirus (.av)[/size]
+
+[img]http://i.imgur.com/48PhfkE.png[/img]
+
+[size=85][i]   3.3/ Viruses[/i][/size]
+Before I start this section, I will say that if you are looking for assistance on which virus you should be installing to which servers to maximize income, refer to [url=https://forum.hackerexperience.com/viewtopic.php?f=23&t=6799]my thread on the subject[/url], which includes a helpful diagram.
+
+[size=150]   3.31/ Spam (.vspam)[/size]
+
+[img]http://i.imgur.com/mZMOSwn.png[/img]
+
+[size=150]   3.32/ Miner (.vminer)[/size]
+
+[img]http://i.imgur.com/7aHk3f6.png[/img]
+
+[size=150]   3.33/ Warez (.vwarez)[/size]
+
+[img]http://i.imgur.com/aQXETqt.png[/img]
+
+[size=150]   3.34/ DDoS (.vddos)[/size]
+
+[img]http://i.imgur.com/x2U1jRk.png[/img]
+
+[size=150]   3.35/ Doom (.doom)[/size]
+
+[img]http://i.imgur.com/qIG7r0K.png[/img]
+
+[size=85][i]   3.4/ Money & Other[/i][/size]
+[size=150]   3.41/ Virus Collector (.vcol)[/size]
+
+[img]http://i.imgur.com/5ZTFZ1K.png[/img]
+
+[size=150]   3.42/ Torrents (.torrent)[/size]
+
+[img]http://i.imgur.com/hIE6dkp.png[/img]
+
+[size=150]   3.43/ DDoS Breaker (.vbrk)[/size]
+
+[img]http://i.imgur.com/ho29TvI.png[/img]
+
+[size=150]   3.44/ Analyzer (.ana)[/size]
+
+[img]http://i.imgur.com/UnGf20M.png[/img]
+
+[size=150][b]   3.5/ Executables[/b][/size]
+
+[img]http://i.imgur.com/WaNmU2L.png[/img]
+
+[size=200][b]4/ Tips, Strategies, and Useful Stuff[/b][/size]
+
+[size=150]   4.1/ Links[/size]
+
+Hacker Experience IP Parser -> https://ff66179fe3540df57a125950cc2b86cc62277b6f.googledrive.com/host/0B5kX1uxxxbCITURhVnBtSjFTYUk/
+original thread for IP Parser -> https://forum.hackerexperience.com/viewtopic.php?f=20&t=760
+Jregg's Updated Firewires IP Parser -> https://1c7cbe3ed08690ac425e27b5018602228379829a.googledrive.com/host/0B7k0anno4DzSWFpyQUJDanp0aVU/
+Pastebin (If you need to save large amounts of IP's, and other stuff) -> http://pastebin.com/
+Jregg's 'how to make money' thread -> https://forum.hackerexperience.com/viewtopic.php?f=23&t=6799
+Hacker Experience IRC Channel thread -> https://forum.hackerexperience.com/viewtopic.php?f=18&t=5365
+SystemOveride's Bank Hack thread -> https://forum.hackerexperience.com/viewtopic.php?f=20&t=1643
+YouTube video on how to hack bank accounts -> https://www.youtube.com/watch?v=GqsndAZIVic
+SexyVulpix's DDoS Tips & Tricks thread -> https://forum.hackerexperience.com/viewtopic.php?f=20&t=7330
+IN YO FACE's FBI & Safenet hint -> https://forum.hackerexperience.com/viewtopic.php?f=20&t=7349
+Jregg's HE NPC Software Loadout spreadsheet -> https://docs.google.com/spreadsheets/d/1WH8t0yRhKNgIdf8pEB2NqKDsLeyuDfQjo68n2YwotKQ/edit?usp=sharing
+Bitcoin realtime converter -> http://preev.com/
+Free online alarm clock for timing research -> http://www.onlinevideoclock.com/
+
+[size=150]   4.2/ Profile Badges[/size]
+
+I've been wanting to keep a list of all known profile badges for the game in case players want to go badge hunting or something, so here's a list of known profile badges. Do you know of a profile badge that is not on this list? Contribute to the list, and post about it. I'll try getting to adding it ASAP. There's currently a bug regarding people getting badges that they deserve. So, if you're supposed to have gotten a certain badge on this list, sit tight, you're not the only person suffering through it. Also, some of the badges aren't given out until after the round ends, so it's best to complain about it after the round has ended and you still don't have your badge.
+
+[b]Total Badges:[/b] 59 + 4 Clan Profile Badges
+
+[img]http://i.imgur.com/ZF7OLs4.png[/img]
+[b]Developer[/b]
+[img]http://i.imgur.com/KcKOTVo.png[/img]
+[b]Beta Tester[/b]
+[img]http://i.imgur.com/ouS8lQU.png[/img]
+[b]Premium[/b]
+[img]http://i.imgur.com/mOFHleA.png[/img]
+[b]Best Player[/b] - Best player of the round.
+[img]http://i.imgur.com/lhfiIsn.png[/img]
+[b]Runner up[/b] - Ranked #2 among all the players.
+[img]http://i.imgur.com/Wx3fu2R.png[/img]
+[b]3rd Placed[/b] - Ranked #3 among all the players.
+[img]http://i.imgur.com/cZEq46P.png[/img]
+[b]Almost There[/b] - Placed between the top 10 players of the round.
+[img]http://i.imgur.com/6chsGF3.png[/img]
+[b]Anti-Doom[/b] - Player stopped a doom attack.
+[img]http://i.imgur.com/Wz24qkK.png[/img]
+[b]DDoS[/b] - Player launched a DDoS attack.
+[img]http://i.imgur.com/PDu2kqm.png[/img]
+[b]Doom the World[/b] - Player launched a Doom attack.
+[img]http://i.imgur.com/mmodPSr.png[/img]
+[b]Doom Master[/b] - Player's doom worked and nuked the internet.
+[img]http://i.imgur.com/iC1SKvE.png[/img]
+[b]Go Multi[/b] - Player bought their second server.
+[img]http://i.imgur.com/DyBVPRR.png[/img]
+[b]Storage Maniac[/b] - Player maxed out HDD upgrades (of all servers).
+[img]http://i.imgur.com/6MRHCBl.png[/img]
+[b]Processor Maniac[/b] - Player maxed out CPU upgrades (of all servers).
+[img]http://i.imgur.com/Vsfvxgm.png[/img]
+[b]Memory Maniac[/b] - Player maxed out RAM upgrades (of all servers).
+[img]http://i.imgur.com/L4UVyww.png[/img]
+[b]Internet Maniac[/b] - Player maxed out internet upgrades.
+[img]http://i.imgur.com/4NHbRd8.png[/img]
+[b]H4x0r[/b] - Player have 100 or more IP's on Hacked Database.
+[img]http://i.imgur.com/y0y8S8E.png[/img]
+[b]B4nk3r[/b] - Player have 50 or more bank accounts on Hacked Database.
+[img]http://i.imgur.com/mQf4waX.png[/img]
+[b]Web Celeb[/b] - Player reached 1,000 profile clicks.
+[img]http://i.imgur.com/mySL5n6.png[/img]
+[b]Anniversary[/b] - Player account is 1 year old.
+[img]http://i.imgur.com/EtGNZx7.png[/img]
+[b]Employee[/b] - Player completed a total of 50 missions on the round.
+[img]http://i.imgur.com/u3Cde6O.png[/img]
+[b]Seriously, you are addicted[/b] - Player completed a total of 500 missions during the game history.
+[img]http://i.imgur.com/5StbujB.png[/img]
+[b]I Can't Handle[/b] - Player reseted his IP over 20 times on the round.
+[img]http://i.imgur.com/Ttj8zd5.png[/img]
+[b]Noob Certification[/b] - Player reseted his IP over 200 times during the game history.
+[img]http://i.imgur.com/zrmK3BC.png[/img]
+[b]Addicted Player[/b] - Player have a gameplay higher than 24 hours (on the round).
+[img]http://i.imgur.com/uIK0M0u.png[/img]
+[b]I Need Help[/b] - Player have a total gameplay of over 14 days during the game history.
+[img]http://i.imgur.com/GhB6nf6.png[/img]
+[b]Powerful Member[/b] - Player have a total reputation of 1,000,000 during the game history.
+[img]http://i.imgur.com/SuckKlz.png[/img]
+[b]I Am Your Hacker[/b] - Player have a total reputation of 10,000,000 during the game history.
+[img]http://i.imgur.com/sc1SLlN.png[/img]
+[b]Go To Facebook[/b] - Player have 30 friends.
+[img]http://i.imgur.com/wIgxYCk.png[/img]
+[b]Badge Hunter[/b] - Player earned 30 badges.
+[img]http://i.imgur.com/YwcC3Zd.png[/img]
+[b]Who Ate My RAM?[/b] - Player have 20 or more running softwares at the same time.
+[img]http://i.imgur.com/gw6ZmjR.png[/img]
+[b]Downloader[/b] - Player have 50GB of HD used.
+[img]http://i.imgur.com/z5oqKX3.png[/img]
+[b]Student[/b] - Player completed all certificates.
+[img]http://i.imgur.com/T7GEzp2.png[/img]
+[b]I Haz Money[/b] - Player have over $1,000,000 on his bank accounts.
+[img]http://i.imgur.com/LU0tjP9.png[/img]
+[b]DDoSer[/b] - Player DDoSed a total of 100 times during the round.
+[img]http://i.imgur.com/XhJr1HD.png[/img]
+[b]DDoS Master[/b] - Player DDoSed a total of 1,000 times during the game history.
+[img]http://i.imgur.com/YrwIRAZ.png[/img]
+[b]N00b[/b] - Player aborted 5 missions.
+[img]http://i.imgur.com/dqeRjQ8.png[/img]
+[b]Efficient[/b] - After 10 missions, player has a completion rate higher than 95%.
+[img]http://i.imgur.com/se8IxCY.png[/img]
+[b]300[/b] - Player was part of a clan war.
+[img]http://i.imgur.com/fpAF3aW.png[/img]
+[b]War Lord[/b] - Most influent player of a clan war.
+[img]http://i.imgur.com/wlJmqRt.png[/img]
+[b]Dat Guy[/b] - Player started a clan war.
+[img]http://i.imgur.com/MzDjiPn.png[/img]
+[b]Talker[/b] - Player sent over 100 mails during the game history.
+[img]http://i.imgur.com/2NGHMhf.png[/img]
+[b]Famous[/b] - Player received over 100 mails during the game history.
+[img]http://i.imgur.com/ORV2wky.png[/img]
+[b]Researcher[/b] - Player researched over 50 times during the round.
+[img]http://i.imgur.com/coFZCGZ.png[/img]
+[b]Software Engineer[/b] - Player researched over 500 times during the game history.
+[img]http://i.imgur.com/mfiiPN9.png[/img]
+[b]Hacker[/b] - Player have hacked 100 IP's on the round.
+[img]http://i.imgur.com/ZW6i8wx.png[/img]
+[b]Top Hacker[/b] - Player have hacked 1,000 IP's during the game history.
+[img]http://i.imgur.com/bBuy2Po.png[/img]
+[b]What'ya doin'??[/b] - Player have over 50 running tasks.
+[img]http://i.imgur.com/PvzCLq0.png[/img]
+[b]Hipster[/b] - Player bought an External Hard Drive.
+[img]http://i.imgur.com/iFwg9H0.png[/img]
+[b]Hacker News[/b] - Player had his name quoted on the news.
+[img]http://i.imgur.com/VgAQzQi.png[/img]
+[b]Best Software[/b] - Player had the best software of the round.
+[img]http://i.imgur.com/nyiqWe8.png[/img]
+[b]Runner up (software)[/b] - Ranked #2 among the best softwares of the round.
+[img]http://i.imgur.com/qth43PF.png[/img]
+[b]3rd Placed (software)[/b] - Ranked #3 among the best softwares of the round.
+[img]http://i.imgur.com/blfALld.png[/img]
+[b]Almost There (software)[/b] - Player's software was among the top 10 softwares of the round.
+[img]http://i.imgur.com/yH7tfOB.png[/img]
+[b]Best DDoS[/b] - First placed on the DDoS ranking.
+[img]http://i.imgur.com/vK4ocu5.png[/img]
+[b]Runner up (DDoS)[/b] - Ranked #2 among the best DDoS attacks of the round.
+[img]http://i.imgur.com/i7EPGUi.png[/img]
+[b]3rd Placed (DDoS[/b] - Ranked #3 among the best DDoS attacks of the round.
+[img]http://i.imgur.com/UbZCPzA.png[/img]
+[b]Almost There (DDoS)[/b] - Player's DDoS attack was among the top 10 attacks of the round.
+[img]http://i.imgur.com/q49vqVy.png[/img]
+[b]Donator[/b] - Player donated to the game at least once, with his premium membership being expired.
+
+[b][size=150]Clan Profile Badges[/size][/b]
+
+[img]http://i.imgur.com/m2jBqY3.png[/img]
+[b]Best Clan[/b] - Best clan of the round.
+[img]http://i.imgur.com/lQ3NN91.png[/img]
+[b]Runner up[/b] - Ranked #2 among the best clans of the round.
+[img]http://i.imgur.com/H6qt7un.png[/img]
+[b]3rd placed[/b] - Ranked #3 among the best clans of the round.
+[img]http://i.imgur.com/VXBYtCJ.png[/img]
+[b]Almost There[/b] - Clan was among the top 10 of the round.
+
+[size=150]   4.3/ Tips & Strategies[/size]
+
+[b]Regarding hacking bank accounts:[/b]
+1. Open notepad, paste your account number of the account you're using for stealing. Include the IP of that bank account.
+2. Log in to your BTC wallet and clear your logs.
+3. Start looking for bank accounts to hack. Log into an account when you find it.
+4. Right after logging into it (before transfering) log in to the bank itself and clear logs.
+5. Transfer the money to your stealing account.
+6. Clear the bank log fast as hell.
+7. Buy Bitcoins with the stolen money. Tip: [url=http://preev.com/]use this link to convert USD to bitcoins.[/url]
+8. Sell the bitcoins, put the money in your safe account (an account that you've never transferred money through in this manner, or have had leaked).
+9. Repeat.
+10. When you're done, log in to your stealing account, make sure it's completely empty, close account, register a new one.
+11. Reset your IP. (If needed)
+
+[b]How to never get DDoSed while online:[/b]
+1. Start an IP reset, it should take 10 minutes.
+2. Navigate away from the ISP IP, to a place such as First Whois (1.2.3.4) before the task completes.
+3. Open your Task Manager (Task Manager Tab on left side menu).
+4. Wait for the process of IP Reset to finish, but do not complete the task.
+5. In the event that you receive a DDoS warning through your e-mail, you may complete the IP Reset task instantly. Enemies will not be able to DDoS you.
+6. Repeat from step one.
+
+[b]Regarding tips on correct use of DDoS:[/b]
+1. DDoSing is not a toy, and certainly should be treated with respect, I suggest to DDoS only for missions since those only give out actual profits, unless you plan on others being able to hack into you.
+2. DDoSing with a high power (Like 768 GBPS) may increase damage and may seize someone
+3. If you want to be stealthy, Prepare an ip reset and do not complete it, Then run the ddos and if the fbi get you then hit complete.
+4. If you wish, Download DDoS logs on people to get some free ips.
+5. To initate a quick DDoS (AKA 5 minutes till impact instead of ten) Start the ddos and do not do anything that uses the processor, doing so will hold it up to 10 minutes.
+6. If you dont want your DDoS virus to be removed, Use a hidder and hide it.
+7. Want more damage? Disable the target's firewall.
+8. Logs will be kept on the victim and you, so clear them frequently.
+9. FBI wanted people need to be DDoSed and also seized in order to claim the bounty
+10. Before hitting a wanted person, if the ddos is ready and can be completed, check if the ip is still wanted, if you hit him and he is not wanted anymore safenet or fbi can get you.
+
+[b]How to speed up large queues in Task Manager:[/b]
+1. Queue everything that you want to do (upload stuff, download stuff, install stuff, etc.)
+2. Make sure you have things in the queue that are going to take dramatically less time than the stuff that will take longest in the queue.
+3. When you queue extra things in the queue, it must match that queue type (CPU processes only work for CPU, and vice versa for download/upload).
+3. When said things that don't take very long start to finish, complete those tasks, while time is still needed for the bigger processes.
+4. The time for the bigger things in queue will reduce. The smaller the queue, the faster completion results you will get. Doing this is effectively faster than one at a time in all cases.
+
+[b]Starting during a new round:[/b]
+When doom of the previous round happens and the day count on the home page of the current round starts back at 0, it means that the previous round has ended, and the new round has begun. Before starting a new round, you must ask yourself: Will you be playing without clan assistance, or with clan assistance? This can also be broken down to the question of whether you're working with friends, or playing solo. [b]If you are playing solo, follow the numbers. If you are playing with a clan, follow the numbers AND letters.[/b]
+
+NPC Software Loadout Spreadsheet is located here: https://docs.google.com/spreadsheets/d/1WH8t0yRhKNgIdf8pEB2NqKDsLeyuDfQjo68n2YwotKQ/edit#gid=0
+It keeps track of every NPC and what softwares they have. Feel free to copy and use it how you like.
+
+1. Go to First Whois, and Bitcoin Market. You will want to register a bitcoin account, and take the money out of the bitcoin account.
+2. Go to the hardware tab, and you will want to buy 10mbit/s internet, some CPU, and some HDD space.
+2c. IF you are the person in your clan that's going to be going through puzzles, get your clan members to chip in for faster internet speeds and higher CPU. (50mbit/s & 2500MHz suffices for right now)
+3. Download a cracker from Download Center, install it, and start making your way through First Puzzle.
+3c. Download a cracker from Download Center, install it. For the duration of this guide, the person who had money chipped into is called 'puzzle runner', and the rest are clan members.
+Puzzle runner starts making their way through First Puzzle, and clan members camp puzzle runner's logs for anyone who might log him. If someone logs, Puzzle runner does an IP reset & continues puzzles.
+4. Download ONLY the cracker, and make sure to clear your logs instantly. install the new cracker, delete your old cracker, and move onto the next puzzle IP.
+5. Double-check the numbers on the side of each puzzle to get an idea of how many people are ahead of you, and how many people are behind you in puzzles. When you think you are far enough ahead to not get detected, do an IP reset.
+6. Keep going through the puzzles. Somewhere before you download and install a 2.9+ crc, do 1 or 2 delete software missions and use the money from that to buy 1gb HDD space and more CPU.
+6c. Keep going through the puzzles. When you get 2.0 crc, save it and allow clan members to download it off of Puzzle runner. One clan member stays behind and watches logs, the rest do missions.
+Clan members doing missions fork extra money to Puzzle runner to buy a 2nd server, and more CPU, as well as HDD, CPU, and internet speed for other clan members.
+7. Continue going through puzzles. You will want to get all the way to second whois, and download 5.3 crc from second whois.
+8. Start grinding through Level 2 Missions for money, and keep an eye out for a Mission IP called 'Nokids'. They have a 5.9 crc. Download that. Also, look through bank missions for a possible connection to Swiss Bank. You will want that IP too.
+9. After you download 5.9 crc, research 5.9 crc by one point, just enough so it can be a 6.0 crc.
+10. Hack into Swiss Bank, and download 6.0 hash, and 6.0 firewall, and install both. You may now start grinding out Level 3 missions, and research crc at the same time.
+10c. Before you install hash and firewall, allow clan members to download 6.0 crc/hash/fwl from Puzzle runner. Everyone starts doing missions, with the focus of every member maxing out 3-4 servers on 50-100mbit/s.
+11. Keep researching crc and doing missions. When you have 8.0 crc, hack into Ultimate Bank and get 8.0 hash/fwl. When you have 10.0 crc, hack into Numataka Corporation and get 10.0 hash/fwl.
+11c. Redistribute the newly obtained software to your clan members when you get said softwares.
+12. When you have 10.0 crc, hash, and fwl, keep researching crc so you can hack others that begin researching hash and fwl. Continue doing missions, or install viruses.
+12c. When you have 10.0 crc, hash, and fwl, choose which clan members are researching what, and continue doing missions, or install viruses.
+
+Never buy RAM unless it says you don't have enough when trying to install software/run anti virus.
+
+Some say upgrading your CPU is worthless, that's not true. Upgrade it as much as possible. RAM is much more worthless than CPU.
+
+If you navigate to a clan server IP but the clan name isn't displayed on the page, it means they don't record logs, so you can safely hack it without being tracked unless someone is stalking your logs.
+
+If you are running a clan, get into the habit of using a private IRC room that only your clan can use. It will make baton passing info, news, DDoS alerts, and realtime strategy 500x more easier for everyone, and will allow for some very interesting gameplay teamwork. If you don't want to use an IRC room, Skype groups, Discord, or Teamspeak are all valid options as well. Just find a way to get better connected with one another.
+
+Complete all certifications. There are many benefits from doing so, such as DDoS protection, the use of Exploits, being able to hack banks, and more.
+
+Consider investing in external HDD's. Always keep at least one Cracker software in your external harddrives, so you do not have to log Download Centre to get a new Cracker, and risk having your IP leaked. Backing up Seeker softwares and Virus Collector softwares are also worthwhile decisions.
+
+Hacking in to FBI suspects because why not isn't always smart. The suspect might have his entire clan camping the log for IP's to wreck.
+
+Hack as many servers as you possibly can. Install a money generating virus on every single one of them (money-generating viruses are .vspam, .vwarez, and .vminer).
+
+Need to stop someone from DDoSing ASAP? Hack into them, and hide or delete their DDoS Breaker software.
+
+If you want to know when you will be off the safenet/FBI list, look to the right of the email. when the clock time there matches the actual clock time, you're off the list. If you went on FBI/Safenet because of a DDoS, then you will never be taken off the list.
+
+[b]If you have your own Tips and Tricks, or anything really that you would like to add to this list, let me know, or comment on this thread. Got a thread that you dedicated to helping others that goes into details what this doesn't? Link it, and it will be added to the Links section of the post.[/b]

@@ -1,0 +1,72 @@
+144.165.182.188
+
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"><strong>You already solved this riddle. The next IP is <a href="internet?ip=168.143.66.248">168.143.66.248</a></strong><br><br></span>
+<span id="puzzle-isSolved" value="false"></span>
+<script src="js/jquery.min.js.pagespeed.jm.YSzgc-BSX9.js"></script>
+<script src="puzzle/minesweeper/minesweeper.js.pagespeed.jm.iIaw0t9vaK.js"></script>
+<style>.com{color:#93a1a1}.lit{color:#195f91}.pun,.opn,.clo{color:#93a1a1}.fun{color:#dc322f}.str,.atv{color:#d14}.kwd,.linenums .tag{color:#1e347b}.typ,.atn,.dec,.var{color:teal}.pln{color:#48484c}.prettyprint{padding:8px;background-color:#f7f7f9;border:1px solid #e1e1e8}.prettyprint.linenums{-webkit-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;-moz-box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0;box-shadow:inset 40px 0 0 #fbfbfc,inset 41px 0 0 #ececf0}ol.linenums{margin:0 0 0 33px}ol.linenums li{padding-left:12px;color:#bebec5;line-height:18px;text-shadow:0 1px 0 #fff}</style>
+<style>td{border:1px solid #ccc;padding:7px 10px;width:15px;text-align:center;cursor:pointer;font:bold 16px arial;background-color:#fffffa}td.mark{color:red;background-color:#ccc}td.bomb{color:red}.lost td.bomb{color:#ff0;background-color:#000}</style>
+<div id="status" class="alert alert-info" style="display: none;">Playing</div>
+<span id="newgame" class="btn btn-info" style="margin-bottom: 10px; display: none;">Try again</span><br>
+<table style="display: inline-block; text-align: center;" id="minesweeper" class="active"><tbody><tr><td data-index="0-0">&nbsp;</td><td data-index="0-1">&nbsp;</td><td data-index="0-2">&nbsp;</td><td data-index="0-3">&nbsp;</td><td data-index="0-4">&nbsp;</td><td data-index="0-5">&nbsp;</td><td data-index="0-6">&nbsp;</td><td data-index="0-7">&nbsp;</td></tr><tr><td data-index="1-0">&nbsp;</td><td data-index="1-1">&nbsp;</td><td data-index="1-2">&nbsp;</td><td data-index="1-3">&nbsp;</td><td data-index="1-4">&nbsp;</td><td data-index="1-5">&nbsp;</td><td data-index="1-6">&nbsp;</td><td data-index="1-7">&nbsp;</td></tr><tr><td data-index="2-0">&nbsp;</td><td data-index="2-1">&nbsp;</td><td data-index="2-2">&nbsp;</td><td data-index="2-3">&nbsp;</td><td data-index="2-4">&nbsp;</td><td data-index="2-5">&nbsp;</td><td data-index="2-6">&nbsp;</td><td data-index="2-7">&nbsp;</td></tr><tr><td data-index="3-0">&nbsp;</td><td data-index="3-1">&nbsp;</td><td data-index="3-2">&nbsp;</td><td data-index="3-3">&nbsp;</td><td data-index="3-4">&nbsp;</td><td data-index="3-5">&nbsp;</td><td data-index="3-6">&nbsp;</td><td data-index="3-7">&nbsp;</td></tr><tr><td data-index="4-0">&nbsp;</td><td data-index="4-1">&nbsp;</td><td data-index="4-2">&nbsp;</td><td data-index="4-3">&nbsp;</td><td data-index="4-4">&nbsp;</td><td data-index="4-5">&nbsp;</td><td data-index="4-6">&nbsp;</td><td data-index="4-7">&nbsp;</td></tr><tr><td data-index="5-0">&nbsp;</td><td data-index="5-1">&nbsp;</td><td data-index="5-2">&nbsp;</td><td data-index="5-3">&nbsp;</td><td data-index="5-4">&nbsp;</td><td data-index="5-5">&nbsp;</td><td data-index="5-6">&nbsp;</td><td data-index="5-7">&nbsp;</td></tr><tr><td data-index="6-0">&nbsp;</td><td data-index="6-1">&nbsp;</td><td data-index="6-2">&nbsp;</td><td data-index="6-3">&nbsp;</td><td data-index="6-4">&nbsp;</td><td data-index="6-5">&nbsp;</td><td data-index="6-6">&nbsp;</td><td data-index="6-7">&nbsp;</td></tr><tr><td data-index="7-0">&nbsp;</td><td data-index="7-1">&nbsp;</td><td data-index="7-2">&nbsp;</td><td data-index="7-3">&nbsp;</td><td data-index="7-4">&nbsp;</td><td data-index="7-5">&nbsp;</td><td data-index="7-6">&nbsp;</td><td data-index="7-7">&nbsp;</td></tr></tbody></table>
+</div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next"><a href="internet?ip=168.143.66.248">168.143.66.248</a></span><br>
+</div>
+<div class="puzzle-result puzzle-win">
+<span id="puzzle-status">SOLVED!</span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">382</span> players solved this riddle<br>
+<span class="puzzle-tie">46</span> players are stuck here<br>
+<span class="red">2,165</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+Minesweeper was developed by <a href="http://kilon.org/blog/">Uzi Kilon</a> </div>
+</div>
+</div>
+</div>

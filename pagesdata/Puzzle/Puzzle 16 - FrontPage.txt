@@ -1,0 +1,13 @@
+<div class="span12">
+<p>Server 136.204.64.26 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p>
+</p><p style="max-width:600px; margin-left: 30px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod luctus lorem eu bibendum. Suspendisse eget nisl
+vulputate, viverra orci at, malesuada neque. Sed scelerisque enim ac sem blandit sodales. Aenean et posuere tortor.
+Nullam at mollis risus. Vivamus rhoncus pretium neque eu convallis. Nullam rhoncus gravida purus, non gravida tortor
+molestie in. Proin ultricies semper eros, sit amet ornare lacus congue et.<br><br>
+Vivamus dapibus diam ut libero consectetur semper. Fusce pellentesque arcu nec iaculis suscipit. Sed eget nisi eget mauris sodales cursus sed non magna. Fusce porta nibh id lectus venenatis, id tempus felis lobortis. Quisque vel eleifend diam. Sed consequat feugiat nisl quis tempor. Nulla in orci at magna tempus euismod non id nunc. Maecenas vel malesuada nisi. Donec sed lacus eleifend, sollicitudin ipsum eu, vulputate libero. Donec bibendum tellus non faucibus sagittis. Mauris tincidunt vulputate mattis.
+<br><br>
+In vel neque non felis convallis euismod non quis est. Quisque velit velit, posuere in turpis vel, varius sollicitudin nibh. Morbi ultrices hackris expiriencis amet nunc viverra varius. Donec ut quam libero. Etiam facilisis enim eu massa faucibus ullamcorper. Donec sollicitudin erat et porttitor porta. Integer sit amet viverra nisi. Integer vitae augue vestibulum, elementum justo in, luctus orci. Integer sit amet turpis luctus, commodo massa eu, malesuada quam. Donec feugiat, tortor in molestie ornare, mi mi viverra mauris, id pharetra purus augue ac sem.
+</p><p></p>
+</div>
