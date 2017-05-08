@@ -1,0 +1,30 @@
+<div class="alert alert-success">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Success!</strong> Software installed. </div>
+
+<div class="alert alert-error">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Error!</strong> This IP is already on your hacked database. </div>
+
+<div class="alert alert-success">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Success!</strong> Log successfully edited. </div>
+
+<div class="alert alert-success">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Success!</strong> Successfully cracked 206.128.223.106. Password is <strong>TQ1tXa0y</strong>. </div>
+
+<div class="alert alert-error">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Error!</strong> Access denied: your cracker is not good enough. </div>
+
+Congratulations, you solved the riddle. The next IP is 102.69.81.114
+
+<div class="alert alert-error">
+<button class="close" data-dismiss="alert">×</button>
+<strong>Error!</strong> There already is a log edit in progress. Delete or complete it before. </div>
+
+4.2.178.10
+
+Unread messages.
+You have 59 unread messages.

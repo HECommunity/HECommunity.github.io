@@ -1,0 +1,27 @@
+<div class="span12">
+<div class="span12">
+<div class="span2 center">
+<style type="text/css">@media (min-width:320px){.adslot_log{width:234px;height:60px;display:none}.logleft{display:none}}@media (min-width:360px) and (max-width:480px){.adslot_log{width:300px;height:250px;display:none}.logleft{display:none}}@media (min-width:768px) and (max-width:1024px){.adslot_log{width:336px;height:280px;display:none}.logleft{display:block!important}}@media (min-width:1024px){.adslot_log{width:120px;height:240px;margin-top:50px}.logleft{display:block!important}}@media (min-width:1280px){.adslot_log{width:120px;height:240px;margin-top:50px}.logleft{display:block!important}}@media (min-width:1366px){.adslot_log{width:120px;height:240px;margin-top:50px}.logleft{display:block!important}}@media (min-width:1824px){.adslot_log{width:200px;height:200px;margin-top:50px}.logarea{height:300px}.logleft{display:block!important}}</style>
+<div class="logleft">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+<ins class="adsbygoogle adslot_log" style="display:inline-block" data-ad-client="ca-pub-7193007468156667" data-ad-slot="3338147350" bszxpwl="" hidden=""></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+</div>
+<div class="span8 center">
+<form action="logEdit" method="POST" class="log">
+<input type="hidden" name="id" value="0">
+<textarea class="logarea" rows="15" name="log" spellcheck="FALSE"></textarea><br><br>
+<input class="btn btn-inverse" type="submit" value="Edit log file">
+</form>
+<br>
+</div>
+<div class="span2">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ 
+<ins class="adsbygoogle adslot_log" style="display:inline-block" data-ad-client="ca-pub-7193007468156667" data-ad-slot="3338147350" bszxpwl="" hidden=""></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+</div>
+</div>

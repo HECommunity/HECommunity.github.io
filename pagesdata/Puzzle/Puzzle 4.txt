@@ -1,0 +1,67 @@
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"></span>
+<span id="puzzle-isSolved" value="false"></span>
+<h3>Question &amp; Answer</h3>
+<div style="text-align: left;">
+<strong>Puzzle: </strong>
+What are the 2 numbers whose product is 48 and, when the higher number is divided for the lower, the result is 3?<br><br><strong>Note: </strong>Separate the answer using commas. E.g.: 'X, Y' (X is the higher number, Y is the lower number) </div>
+<br><div class="alert alert-success">Yay! '<strong>12, 4</strong>' is the correct answer!<br><br>The next puzzle is located at <strong><a href="internet?ip=4.2.178.10">4.2.178.10</a></strong></div> </div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next"><a href="internet?ip=4.2.178.10">4.2.178.10</a></span><br>
+</div>
+<div class="puzzle-result puzzle-win">
+<span id="puzzle-status">SOLVED!</span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">1,185</span> players solved this riddle<br>
+<span class="puzzle-tie">145</span> players are stuck here<br>
+<span class="red">1,257</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+Hidden Numbers was developed by <a href="http://rachacuca.com.br">RachaCuca</a> </div>
+</div>
+</div>
+</div>

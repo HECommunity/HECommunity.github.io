@@ -1,0 +1,260 @@
+<div class="widget-box">
+<div class="widget-title">
+<ul class="nav nav-tabs">
+<li class="link"><a href="?view=logs"><span class="icon-tab he16-internet_log"></span>Logs</a></li>
+<li class="link active"><a href="?view=software"><span class="he16-software icon-tab"></span>Softwares</a></li>
+<li class="link"><a href="?view=logout"><span class="icon-tab he16-internet_logout"></span><span class="hide-phone">Logout</span></a></li>
+<a href="https://wiki.hackerexperience.com/en:internet"><span class="label label-info">Help</span></a>
+</ul>
+</div>
+<div class="widget-content padding noborder">
+<div class="span12">
+<div class="span9">
+<table class="table table-cozy table-bordered table-striped table-software table-hover with-check">
+<thead>
+<tr>
+<th></th>
+<th>Software name</th>
+<th>Version</th>
+<th class="hide-phone">Size</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr id="10732866" class="installed">
+<td>
+<span class="he16-1 tip-top"></span>
+</td>
+<td>
+<b>Basic Cracker.crc</b>
+</td>
+<td>
+<font color="green">1.1</font>
+</td>
+<td class="hide-phone">
+<font color="green">30 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10732866" class="tip-top"><span class="he16-software_info"></span></a>
+<a href="internet?view=software&amp;cmd=dl&amp;id=10732866" class="tip-top"><span class="he16-download"></span></a>
+<a href="?view=software&amp;cmd=uninstall&amp;id=10732866" class="tip-top"><span class="he16-stop"></span></a>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=del&amp;id=10732866" class="tip-top"><span class="he16-bin"></span></a>
+</td>
+</tr>
+<tr id="10732867" class="installed">
+<td>
+<span class="he16-2 tip-top"></span>
+</td>
+<td>
+<b>Basic Hasher.hash</b>
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">26 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10732867" class="tip-top"><span class="he16-software_info"></span></a>
+<a href="internet?view=software&amp;cmd=dl&amp;id=10732867" class="tip-top"><span class="he16-download"></span></a>
+<a href="?view=software&amp;cmd=uninstall&amp;id=10732867" class="tip-top"><span class="he16-stop"></span></a>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=del&amp;id=10732867" class="tip-top"><span class="he16-bin"></span></a>
+</td>
+</tr>
+<tr id="10732863" class="installed">
+<td>
+<span class="he16-4 tip-top"></span>
+</td>
+<td>
+<b>Basic Firewall.fwl</b>
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">23 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10732863" class="tip-top"><span class="he16-software_info"></span></a>
+<a href="internet?view=software&amp;cmd=dl&amp;id=10732863" class="tip-top"><span class="he16-download"></span></a>
+<a href="?view=software&amp;cmd=uninstall&amp;id=10732863" class="tip-top"><span class="he16-stop"></span></a>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=del&amp;id=10732863" class="tip-top"><span class="he16-bin"></span></a>
+</td>
+</tr>
+<tr id="10732865" class="installed">
+<td>
+<span class="he16-5 tip-top"></span>
+</td>
+<td>
+<b>Basic Hidder.hdr</b>
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">17 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10732865" class="tip-top"><span class="he16-software_info"></span></a>
+<a href="internet?view=software&amp;cmd=dl&amp;id=10732865" class="tip-top"><span class="he16-download"></span></a>
+<a href="?view=software&amp;cmd=uninstall&amp;id=10732865" class="tip-top"><span class="he16-stop"></span></a>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=del&amp;id=10732865" class="tip-top"><span class="he16-bin"></span></a>
+</td>
+</tr>
+<tr id="10732864" class="installed">
+<td>
+<span class="he16-13 tip-top"></span>
+</td>
+<td>
+<b>Basic FTP Exploit.exp</b>
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">21 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10732864" class="tip-top"><span class="he16-software_info"></span></a>
+<a href="internet?view=software&amp;cmd=dl&amp;id=10732864" class="tip-top"><span class="he16-download"></span></a>
+<a href="?view=software&amp;cmd=uninstall&amp;id=10732864" class="tip-top"><span class="he16-stop"></span></a>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=del&amp;id=10732864" class="tip-top"><span class="he16-bin"></span></a>
+</td>
+</tr>
+<tr id="10732862" class="">
+<td>
+<span class="he16-26 tip-top"></span>
+</td>
+<td>
+<a href="?view=software&amp;cmd=riddle">puzzle.exe</a>
+</td>
+<td>
+</td>
+<td class="hide-phone">
+</td>
+<td style="text-align: center">
+<span class="he16-transparent"></span>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=riddle" class="tip-top"><span class="he16-cog"></span></a>
+<span class="he16-transparent"></span>
+<span class="he16-transparent"></span>
+</td>
+</tr>
+<tr id="10733213" class="installed">
+<td>
+<span class="he16-99 tip-top"></span>
+</td>
+<td>
+heartbleed.vspam
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">4 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10733213" class="tip-top"><span class="he16-software_info"></span></a>
+<span class="he16-transparent"></span>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=hide&amp;id=10733213" class="tip-top"><span class="he16-hide"></span></a>
+<span class="he16-transparent"></span>
+</td>
+</tr>
+<tr id="10733267" class="installed">
+<td>
+<span class="he16-99 tip-top"></span>
+</td>
+<td>
+Basic Spam.vspam
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">14 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10733267" class="tip-top"><span class="he16-software_info"></span></a>
+<span class="he16-transparent"></span>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=hide&amp;id=10733267" class="tip-top"><span class="he16-hide"></span></a>
+<span class="he16-transparent"></span>
+</td>
+</tr>
+<tr id="10733710" class="installed">
+<td>
+<span class="he16-99 tip-top"></span>
+</td>
+<td>
+Basic Spam.vspam
+</td>
+<td>
+<font color="green">1.0</font>
+</td>
+<td class="hide-phone">
+<font color="green">14 MB</font>
+</td>
+<td style="text-align: center">
+<a href="?view=software&amp;id=10733710" class="tip-top"><span class="he16-software_info"></span></a>
+<span class="he16-transparent"></span>
+<span class="he16-transparent"></span>
+<a href="?view=software&amp;cmd=hide&amp;id=10733710" class="tip-top"><span class="he16-hide"></span></a>
+<span class="he16-transparent"></span>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear: both;">&nbsp;</div>
+</div>
+<div class="span3" style="text-align: center;">
+<div id="softwarebar">
+<form action="" method="GET">
+<input type="hidden" name="view" value="software">
+<input type="hidden" name="cmd" value="up">
+<input id="upload-id" type="hidden" name="id" value="">
+<div class="controls">
+<div id="toBeHidden">
+<span id="link" class="btn btn-primary">Upload...</span>
+</div>
+<input type="hidden" id="uploadSelect" style="width: 100%" value="">
+</div>
+<div id="uploadForm"></div>
+</form>
+<div style="margin-top: 5px;">
+<span class="small"><strong>50 Mbit</strong> ( 6.25MB/s - 3.13MB/s)</span>
+</div>
+<div class="hd-usage">
+ 
+<div class="chart easyPieChart chartpie" data-percent="2">
+<div id="downmeplz"><span id="percentpie">2</span></div>
+<canvas height="150" width="150"></canvas></div>
+<div class="hd-usage-text">HDD Usage</div>
+<span class="small"><font color="green">150 MB</font> / <font color="red">10 GB</font></span>
+</div>
+<ul class="soft-but">
+<li>
+<a class="link create-txt">
+<i class="icon-" style="background-image: none;"><span class="heicon he32-text_create"></span></i>
+New text file </a>
+</li>
+<li>
+<a class="link create-folder">
+<i class="icon-" style="background-image: none;"><span class="heicon he32-folder_create"></span></i>
+Create folder </a>
+</li>
+</ul>
+<span id="modal"></span>
+<br>
+Next software reset: <strong>9</strong> minutes<br>
+Next hardware reset: <strong>1</strong> hour </div>
+</div>
+</div>
+</div>
+<div style="clear: both;" class="nav nav-tabs">&nbsp;</div>
+</div>

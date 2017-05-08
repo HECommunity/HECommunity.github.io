@@ -1,0 +1,8 @@
+<div class="span12">
+<p>Server 1.158.201.174 is <font color="green"><b>online</b></font><span class="label label-important pull-right">ISP</span></p>
+HEX Internet Service Provider - ISP<br><br>You can wait <b><font color="red">2 hours</font></b> for your next free reset or pay $<b>600</b> for our charged IP reset service.<br><br><br>If you are launching a doom attack, <strong>reseting your IP will abort the doom virus</strong>! <br><br>
+<form action="resetIP" method="POST">
+<select id="select-bank-acc" name="acc"><option value="148408078224">#148408078224 ($139,605,728)</option></select>
+<input class="btn btn-success" type="submit" value="Reset for $600">
+</form>
+</div>

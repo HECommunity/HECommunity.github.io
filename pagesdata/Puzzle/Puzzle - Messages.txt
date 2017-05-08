@@ -1,0 +1,3 @@
+<div class="alert alert-error">Damn! '<strong>4</strong>' is wrong :(</div>
+
+<div class="alert alert-success">Yay! '<strong>3</strong>' is the correct answer!<br><br>The next puzzle is located at <strong><a href="internet?ip=250.33.59.2">250.33.59.2</a></strong></div>
