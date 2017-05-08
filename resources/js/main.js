@@ -1928,8 +1928,8 @@ $(document).ready(function() {
     });
 
     function gritterNotify(opts) {
-        $('<link rel="stylesheet" type="text/css" href="css/jquery.gritter.css" >').appendTo("head");
-        $.getScript("js/jquery.gritter.min.js", function() {
+        $('<link rel="stylesheet" type="text/css" href="resources/css/jquery.gritter.css" >').appendTo("head");
+        $.getScript("resources/js/jquery.gritter.min.js", function() {
             $.gritter.add({
                 title: opts.title,
                 text: opts.text,
