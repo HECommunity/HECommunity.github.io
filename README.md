@@ -10,3 +10,6 @@ The frontend will be hosted on github pages, and the backend will run on an inst
 We do not want to have many users, just a few nostalgic users, but why the project is open source, other people can run their own servers with their own modifications and build the game they always wanted.
 
 In the future we want to be the first to run an alternate HE2 server for those who can not afford the license to play on the official server.
+
+DISCLAIMER: 
+Not supported and not developed by Neoart Labs, the team behind new Hacker Experience 1 (HEBorn) and Hacker Experience 2.
