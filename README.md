@@ -13,3 +13,5 @@ In the future we want to be the first to run an alternate HE2 server for those w
 
 DISCLAIMER: 
 Not supported and not developed by Neoart Labs, the team behind new Hacker Experience 1 (HEBorn) and Hacker Experience 2.
+
+Our Discord: https://discord.gg/222G2XT
