@@ -1,31 +1,389 @@
-window.fbAsyncInit=function(){FB.init({appId:fbid,status:true,cookie:true,xfbml:true,oauth:true});(function(d){var js,id='facebook-jssdk',ref=d.getElementsByTagName('script')[0];if(d.getElementById(id)){return;}
-js=d.createElement('script');js.id=id;js.async=true;js.src="//connect.facebook.net/en_US/all.js";ref.parentNode.insertBefore(js,ref);}(document));}
-$(document).ready(function(){function ismob(){if(window.innerWidth<=800&&window.innerHeight<=640){return true;}else{return false;}}
-var ismob=ismob();var windowSize=$(window).height();$('.intro-header').css('min-height',windowSize+'px');$(window).resize(function(){windowSize=$(window).height();$('.intro-header').css('min-height',windowSize+'px');$('#terminal').typist({height:windowSize})});$("#accordion").accordion({collapsible:true,active:false});$('.goto-login').on('click',function(){gotoLogin();});$('.goto-signup').click(function(){gotoSignUp();});$('.goto-about').click(function(){cur=2;if(ismob){var loctop=$("#mAbout").offset().top;}else{var loctop=$("#About").offset().top;$('.about1').tooltip('show');}
-$('html, body').animate({scrollTop:loctop},500);});$('.goto-faq').click(function(){cur=4;$('html, body').animate({scrollTop:$("#FAQ").offset().top},500);});$('#signup-form').on('mouseover',function(){validate('signup');})
-$('#login-form').on('mouseover',function(){validate('login');})
-var validatedLogin=validatedSignUp=false;function validate(form){setTimeout(function(){if(form=='signup'){if(validatedSignUp){return;}
-validateSignUp();}else{if(validatedLogin){return;}
-validateLogin();}},300)}
-function validateSignUp(){$('#signup-form').validate({rules:{username:{required:true,rangelength:[3,15],remote:{url:"ajax.php",type:"post",dataType:"json",data:{func:'check-user'}}},password:{required:true,minlength:6},email:{required:true,email:true,remote:{url:"ajax.php",type:"post",data:{func:'check-mail'}}},terms:{required:true}},errorPlacement:function(){},highlight:function(element){$(element).closest('.form-group').addClass('has-error');$(element).closest('.form-group').removeClass('has-success');},unhighlight:function(element){$(element).closest('.form-group').removeClass('has-error');$(element).parents('.form-group').addClass('has-success');},errorElement:'span',errorClass:'help-block',validClass:'has-success',errorPlacement:function(error,element){if($(element).attr('id')!='terms'){if(element.parent('.input-group').length){error.insertAfter(element.parent());}else{error.insertAfter(element);}}},messages:{username:{remote:'Username already taken.'},email:{remote:'This email is in use.'}}});}
-function validateLogin(){$('#login-form').validate({rules:{username:{required:true,},password:{required:true,}},errorPlacement:function(){},highlight:function(){},unhighlight:function(){},errorElement:'span',errorClass:'error-input',validClass:'has-success',errorPlacement:function(){},messages:{name:{remote:'Username already taken.'}}});}
-var cur=0;var lastAnimation=0;if(typeof header!='undefined'){if(header=='login'){gotoLogin();}else{gotoSignUp();}}
-function gotoLogin(){if(ismob){var loctop=$("#mLogin").offset().top-50;}else{var loctop=$("#Login").offset().top;}
-cur=1;$('html, body').animate({scrollTop:loctop},500);setTimeout(function(){$('#login-username').focus();},100);validate('login');}
-function gotoSignUp(){if(ismob){var loctop=$("#mSignUp").offset().top;}else{var loctop=$("#SignUp").offset().top;}
-cur=3;$('html, body').animate({scrollTop:loctop},500);setTimeout(function(){$('#signup-username').focus();},100);validate('signup');}
-if(!ismob){function move(cur){if(cur==0){$('html, body').animate({scrollTop:0},500);$('#login-username').blur();}else if(cur==1){$('html, body').animate({scrollTop:$("#Login").offset().top},500);setTimeout(function(){$('#login-username').focus();validate('login');},500)
-$('.about1').tooltip('hide');}else if(cur==2){$('html, body').animate({scrollTop:$("#About").offset().top},500);$('#login-username').blur();$('#signup-username').blur();$('.about1').tooltip('show');}else if(cur==3){$('html, body').animate({scrollTop:$("#SignUp").offset().top},500);setTimeout(function(){$('#signup-username').focus();validate('signup');},500);$('.about1').tooltip('hide');}else if(cur==4){$('html, body').animate({scrollTop:$("#FAQ").offset().top},500);$('#signup-username').blur();}else{$('html, body').animate({scrollTop:$("#footer").offset().top},500);}}
-$(document).keydown(function(e){var tag=e.target.tagName.toLowerCase();if(tag!='input'){load=true;var timeNow=new Date().getTime();var quiet=50;if(cur==1){var quiet=100;}
-if(timeNow-lastAnimation<quiet+400){e.preventDefault();return false;}
-switch(e.which){case 33:case 38:cur--;if(cur<0){cur=0;load=false;}
-break;case 34:case 40:cur++;if(cur>5){cur=5;load=false;}
-break;case 36:cur=0;break;case 35:cur=5;break;default:return;}
-if(!load){e.preventDefault();return false;}
-move(cur);lastAnimation=timeNow;return false;}});}
-$('#fb-login').on('click',function(){window.location.replace($('#fb-login').attr('value'));});$('#tt-login').on('click',function(){window.location.replace($('#tt-login').attr('value'));});loadedTip=false;if(!loadedTip){loadedTip=true;setTimeout(function(){$('.ul-about').tooltip({selector:"li[data-toggle=tooltip]"})},500);}
-$('.about').mouseover(function(){if(!($(this).hasClass('about1'))){$('.about1').tooltip('hide');}});$('.about-more').mouseover(function(){$('.about1').tooltip('hide');});$(".dropdown dt a").click(function(){$(".dropdown dd ul").toggle();});$(".dropdown dd ul li a").click(function(){var text=$(this).children()[0];$(".dropdown dt a span").html(text);$(".dropdown dd ul").hide();});if(ismob){$('.content-section-a').css({'padding-top':'25px','padding-bottom':'25px','text-align':'center'});$('.content-section-b').css({'padding-top':'25px','padding-bottom':'25px','text-align':'center'});$('#login-form').css('text-align','left');$('#signup-form').css('text-align','left');$('#accordion').css('text-align','left');$('.lead').css('text-align','left');$('.appico').addClass('fa-3x').removeClass('fa-4x');$('.section-heading-spacer').hide();$('#freq').css('margin-top','0');$('.three').css('text-align','center');$('#contact').css('text-align','center');$('#neoart').css('text-align','center');$('#legal-disclaimer').css({'margin-top':'30px','margin-bottom':'30px'});$('#hand').css('margin-left','0');}
-$('#terminal').typist({height:$('.intro-header').height(),backgroundColor:'#000'});function typeboot(){$('#terminal').typist('print','[   16.388364] cfg80211: World regulatory domain updated:<br/> \
+window.fbAsyncInit = function() {
+    FB.init({
+        appId: fbid,
+        status: true,
+        cookie: true,
+        xfbml: true,
+        oauth: true
+    });
+    (function(d) {
+        var js, id = 'facebook-jssdk',
+            ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+}
+$(document).ready(function() {
+    function ismob() {
+        if (window.innerWidth <= 800 && window.innerHeight <= 640) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    var ismob = ismob();
+    var windowSize = $(window).height();
+    $('.intro-header').css('min-height', windowSize + 'px');
+	myAudio = new Audio('resources/music/aprilshowers.mp3'); 	
+	myAudio.addEventListener('ended', function() {
+		this.currentTime = 0;
+		this.play();
+	}, false);
+	myAudio.volume = 0.7;
+	myAudio.play();
+    $(window).resize(function() {
+        windowSize = $(window).height();
+        $('.intro-header').css('min-height', windowSize + 'px');
+        $('#terminal').typist({
+            height: windowSize
+        })
+    });
+    $("#accordion").accordion({
+        collapsible: true,
+        active: false
+    });
+    $('.goto-login').on('click', function() {
+        gotoLogin();
+    });
+    $('.goto-signup').click(function() {
+        gotoSignUp();
+    });
+    $('.goto-about').click(function() {
+        cur = 2;
+        if (ismob) {
+            var loctop = $("#mAbout").offset().top;
+        } else {
+            var loctop = $("#About").offset().top;
+            $('.about1').tooltip('show');
+        }
+        $('html, body').animate({
+            scrollTop: loctop
+        }, 500);
+    });
+    $('.goto-faq').click(function() {
+        cur = 4;
+        $('html, body').animate({
+            scrollTop: $("#FAQ").offset().top
+        }, 500);
+    });
+    $('#signup-form').on('mouseover', function() {
+        validate('signup');
+    })
+    $('#login-form').on('mouseover', function() {
+        validate('login');
+    })
+    var validatedLogin = validatedSignUp = false;
+
+    function validate(form) {
+        setTimeout(function() {
+            if (form == 'signup') {
+                if (validatedSignUp) {
+                    return;
+                }
+                validateSignUp();
+            } else {
+                if (validatedLogin) {
+                    return;
+                }
+                validateLogin();
+            }
+        }, 300)
+    }
+
+    function validateSignUp() {
+        $('#signup-form').validate({
+            rules: {
+                username: {
+                    required: true,
+                    rangelength: [3, 15],
+                    remote: {
+                        url: "ajax.php",
+                        type: "post",
+                        dataType: "json",
+                        data: {
+                            func: 'check-user'
+                        }
+                    }
+                },
+                password: {
+                    required: true,
+                    minlength: 6
+                },
+                email: {
+                    required: true,
+                    email: true,
+                    remote: {
+                        url: "ajax.php",
+                        type: "post",
+                        data: {
+                            func: 'check-mail'
+                        }
+                    }
+                },
+                terms: {
+                    required: true
+                }
+            },
+            errorPlacement: function() {},
+            highlight: function(element) {
+                $(element).closest('.form-group').addClass('has-error');
+                $(element).closest('.form-group').removeClass('has-success');
+            },
+            unhighlight: function(element) {
+                $(element).closest('.form-group').removeClass('has-error');
+                $(element).parents('.form-group').addClass('has-success');
+            },
+            errorElement: 'span',
+            errorClass: 'help-block',
+            validClass: 'has-success',
+            errorPlacement: function(error, element) {
+                if ($(element).attr('id') != 'terms') {
+                    if (element.parent('.input-group').length) {
+                        error.insertAfter(element.parent());
+                    } else {
+                        error.insertAfter(element);
+                    }
+                }
+            },
+            messages: {
+                username: {
+                    remote: 'Username already taken.'
+                },
+                email: {
+                    remote: 'This email is in use.'
+                }
+            }
+        });
+    }
+
+    function validateLogin() {
+        $('#login-form').validate({
+            rules: {
+                username: {
+                    required: true,
+                },
+                password: {
+                    required: true,
+                }
+            },
+            errorPlacement: function() {},
+            highlight: function() {},
+            unhighlight: function() {},
+            errorElement: 'span',
+            errorClass: 'error-input',
+            validClass: 'has-success',
+            errorPlacement: function() {},
+            messages: {
+                name: {
+                    remote: 'Username already taken.'
+                }
+            }
+        });
+    }
+    var cur = 0;
+    var lastAnimation = 0;
+    if (typeof header != 'undefined') {
+        if (header == 'login') {
+            gotoLogin();
+        } else {
+            gotoSignUp();
+        }
+    }
+
+    function gotoLogin() {
+        if (ismob) {
+            var loctop = $("#mLogin").offset().top - 50;
+        } else {
+            var loctop = $("#Login").offset().top;
+        }
+        cur = 1;
+        $('html, body').animate({
+            scrollTop: loctop
+        }, 500);
+        setTimeout(function() {
+            $('#login-username').focus();
+        }, 100);
+        validate('login');
+    }
+
+    function gotoSignUp() {
+        if (ismob) {
+            var loctop = $("#mSignUp").offset().top;
+        } else {
+            var loctop = $("#SignUp").offset().top;
+        }
+        cur = 3;
+        $('html, body').animate({
+            scrollTop: loctop
+        }, 500);
+        setTimeout(function() {
+            $('#signup-username').focus();
+        }, 100);
+        validate('signup');
+    }
+    if (!ismob) {
+        function move(cur) {
+            if (cur == 0) {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 500);
+                $('#login-username').blur();
+            } else if (cur == 1) {
+                $('html, body').animate({
+                    scrollTop: $("#Login").offset().top
+                }, 500);
+                setTimeout(function() {
+                    $('#login-username').focus();
+                    validate('login');
+                }, 500)
+                $('.about1').tooltip('hide');
+            } else if (cur == 2) {
+                $('html, body').animate({
+                    scrollTop: $("#About").offset().top
+                }, 500);
+                $('#login-username').blur();
+                $('#signup-username').blur();
+                $('.about1').tooltip('show');
+            } else if (cur == 3) {
+                $('html, body').animate({
+                    scrollTop: $("#SignUp").offset().top
+                }, 500);
+                setTimeout(function() {
+                    $('#signup-username').focus();
+                    validate('signup');
+                }, 500);
+                $('.about1').tooltip('hide');
+            } else if (cur == 4) {
+                $('html, body').animate({
+                    scrollTop: $("#FAQ").offset().top
+                }, 500);
+                $('#signup-username').blur();
+            } else {
+                $('html, body').animate({
+                    scrollTop: $("#footer").offset().top
+                }, 500);
+            }
+        }
+        $(document).keydown(function(e) {
+            var tag = e.target.tagName.toLowerCase();
+            if (tag != 'input') {
+                load = true;
+                var timeNow = new Date().getTime();
+                var quiet = 50;
+                if (cur == 1) {
+                    var quiet = 100;
+                }
+                if (timeNow - lastAnimation < quiet + 400) {
+                    e.preventDefault();
+                    return false;
+                }
+                switch (e.which) {
+                    case 33:
+                    case 38:
+                        cur--;
+                        if (cur < 0) {
+                            cur = 0;
+                            load = false;
+                        }
+                        break;
+                    case 34:
+                    case 40:
+                        cur++;
+                        if (cur > 5) {
+                            cur = 5;
+                            load = false;
+                        }
+                        break;
+                    case 36:
+                        cur = 0;
+                        break;
+                    case 35:
+                        cur = 5;
+                        break;
+                    default:
+                        return;
+                }
+                if (!load) {
+                    e.preventDefault();
+                    return false;
+                }
+                move(cur);
+                lastAnimation = timeNow;
+                return false;
+            }
+        });
+    }
+    $('#fb-login').on('click', function() {
+        window.location.replace($('#fb-login').attr('value'));
+    });
+    $('#tt-login').on('click', function() {
+        window.location.replace($('#tt-login').attr('value'));
+    });
+    loadedTip = false;
+    if (!loadedTip) {
+        loadedTip = true;
+        setTimeout(function() {
+            $('.ul-about').tooltip({
+                selector: "li[data-toggle=tooltip]"
+            })
+        }, 500);
+    }
+    $('.about').mouseover(function() {
+        if (!($(this).hasClass('about1'))) {
+            $('.about1').tooltip('hide');
+        }
+    });
+    $('.about-more').mouseover(function() {
+        $('.about1').tooltip('hide');
+    });
+    $(".dropdown dt a").click(function() {
+        $(".dropdown dd ul").toggle();
+    });
+    $(".dropdown dd ul li a").click(function() {
+        var text = $(this).children()[0];
+        $(".dropdown dt a span").html(text);
+        $(".dropdown dd ul").hide();
+    });
+    if (ismob) {
+        $('.content-section-a').css({
+            'padding-top': '25px',
+            'padding-bottom': '25px',
+            'text-align': 'center'
+        });
+        $('.content-section-b').css({
+            'padding-top': '25px',
+            'padding-bottom': '25px',
+            'text-align': 'center'
+        });
+        $('#login-form').css('text-align', 'left');
+        $('#signup-form').css('text-align', 'left');
+        $('#accordion').css('text-align', 'left');
+        $('.lead').css('text-align', 'left');
+        $('.appico').addClass('fa-3x').removeClass('fa-4x');
+        $('.section-heading-spacer').hide();
+        $('#freq').css('margin-top', '0');
+        $('.three').css('text-align', 'center');
+        $('#contact').css('text-align', 'center');
+        $('#neoart').css('text-align', 'center');
+        $('#legal-disclaimer').css({
+            'margin-top': '30px',
+            'margin-bottom': '30px'
+        });
+        $('#hand').css('margin-left', '0');
+    }
+    $('#terminal').typist({
+        height: $('.intro-header').height(),
+        backgroundColor: '#000'
+    });
+
+    function typeboot() {
+        $('#terminal').typist('print', '[   16.388364] cfg80211: World regulatory domain updated:<br/> \
 					[   16.388367] cfg80211:     (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)<br/> \
 					[   16.388370] cfg80211:     (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)<br/> \
 					[   16.388372] cfg80211:     (2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)<br/> \
@@ -99,6 +457,16 @@ $('#terminal').typist({height:$('.intro-header').height(),backgroundColor:'#000'
 					[   19.929654] radeon atpx: version is 1<br/> \
 					[   19.930205] vgaarb: device changed decodes: PCI:0000:01:00.0,olddecodes=io+mem,decodes=none:owns=none<br/> \
 					[   19.930212] vgaarb: device changed decodes: PCI:0000:00:02.0,olddecodes=io+mem,decodes=none:owns=io+mem<br/> \
-					')}
-function typeconsole(){setTimeout(function(){$('#terminal').empty()},1000);$('#terminal').typist('wait','300').typist('print','[ 0.000000] Linux version 3.2.0-4-amd64 (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.51-1').typist('wait','100').typist('print','[ 0.000024] Command line: BOOT_IMAGE=/boot/vmlinuz-3.2.0-4-amd64 root=UUID=abb4b6af-3442-4574-8790-16e6ca0a10ef ro quiet').typist('wait','100').typist('print','[ 0.000157] Booting paravirtualized kernel on bare hardware').typist('wait','100').typist('print','[ 0.000533] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)').typist('wait','100').typist('print','[ 0.004348] Starting apache2 web server').typist('wait','100').typist('print','[ 0.005398] PPP: version 2.3.3 (demand dialling)').typist('wait','50').typist('print','[ 0.005452] PPP line discipline registered.').typist('wait','100').typist('print','[ 0.005752] eth0: MACE at 00:0f:02:10:2a:6d, chip revision 9.64').typist('wait','100').typist('prompt').typist('wait','1000').typist('type','ssh root@nsa.gov').typist('wait','200').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!').typist('prompt').typist('wait','1000').typist('type','ssh fbi.gov').typist('print','Enter username:').typist('promptecho').typist('wait','200').typist('type','root').typist('wait','150').typist('print','Enter password:').typist('promptecho').typist('wait','200').typist('type','********').typist('wait','400').typist('print','Access denied!')}
-if(!ismob){typeconsole(typeboot());}});
+					')
+    }
+
+    function typeconsole() {
+        setTimeout(function() {
+            $('#terminal').empty()
+        }, 1000);
+        $('#terminal').typist('wait', '300').typist('print', '[ 0.000000] Linux version 3.2.0-4-amd64 (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.51-1').typist('wait', '100').typist('print', '[ 0.000024] Command line: BOOT_IMAGE=/boot/vmlinuz-3.2.0-4-amd64 root=UUID=abb4b6af-3442-4574-8790-16e6ca0a10ef ro quiet').typist('wait', '100').typist('print', '[ 0.000157] Booting paravirtualized kernel on bare hardware').typist('wait', '100').typist('print', '[ 0.000533] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)').typist('wait', '100').typist('print', '[ 0.004348] Starting apache2 web server').typist('wait', '100').typist('print', '[ 0.005398] PPP: version 2.3.3 (demand dialling)').typist('wait', '50').typist('print', '[ 0.005452] PPP line discipline registered.').typist('wait', '100').typist('print', '[ 0.005752] eth0: MACE at 00:0f:02:10:2a:6d, chip revision 9.64').typist('wait', '100').typist('prompt').typist('wait', '1000').typist('type', 'ssh root@nsa.gov').typist('wait', '200').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!').typist('prompt').typist('wait', '1000').typist('type', 'ssh fbi.gov').typist('print', 'Enter username:').typist('promptecho').typist('wait', '200').typist('type', 'root').typist('wait', '150').typist('print', 'Enter password:').typist('promptecho').typist('wait', '200').typist('type', '********').typist('wait', '400').typist('print', 'Access denied!')
+    }
+    if (!ismob) {
+        typeconsole(typeboot());
+    }
+});
