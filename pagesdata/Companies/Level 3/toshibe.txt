@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 49.251.146.246 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p></p><div class="center"><img alt="Toshibe" title="Toshibe" src="images/npc/xtoshibe.png.pagespeed.ic.PLgXwurgeq.png"><br><br></div><p></p>
+</div>

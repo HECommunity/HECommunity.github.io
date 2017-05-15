@@ -1,4 +1,5 @@
-164.50.56.166
+164.50.56.166 - WHOIS 2
+116.70.198.182 - PUZZLE
 
 <div class="widget-content padding center">
 <span id="puzzle-header"><strong>You already solved this riddle. The next IP is <a href="internet?ip=80.140.52.87">80.140.52.87</a></strong><br><br></span>

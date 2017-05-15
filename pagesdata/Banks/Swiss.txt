@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 227.238.225.94 is <font color="green"><b>online</b></font><span class="label label-inverse pull-right">Bank</span></p>
+<p></p><div class="center">Welcome to <strong>Swiss International Bank</strong>.<br><a href="internet?action=login&amp;type=bank">Offshore account login</a><br><br><img src="images/npc/swiss.svg"></div><p></p>
+</div>

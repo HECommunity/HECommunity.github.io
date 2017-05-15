@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 92.248.30.241 is <font color="green"><b>online</b></font><span class="label label-inverse pull-right">Bank</span></p>
+<p>Welcome to the <strong>Ultimate Bank</strong>.<br><br>Safety matters! You won't find a safer bank.<br><br><a href="internet?action=login&amp;type=bank">Login now</a></p>
+</div>

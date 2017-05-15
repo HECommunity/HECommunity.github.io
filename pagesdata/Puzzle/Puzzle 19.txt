@@ -1,4 +1,4 @@
-168.143.66.248
+166.49.154.227
 
 <div class="span12">
 <div class="span9">
@@ -13,7 +13,7 @@
 <h3>Question &amp; Answer</h3>
 <div style="text-align: left;">
 <strong>Puzzle: </strong>
-Renato and Matheus told, enthusiastically, the result of the Third International Science Fair, which took place in Switzerland. There were 3 competitors: Naomy, Milena and Phoebe. Renato told Naomy was the winner, with Milena getting the second place. Matheus, however, said Phoebe won, and Naomy was second placed..<br><br>Actually none of them told the truth about what happened at the Science Fair. What really happened was that each one told one true statement and a false one. So, what was the actual classification of the competitors?<br><br><strong>Note: </strong>Answer using the name of the first, second and third placed, respectively. Example: Melchior, Gaspar, Baltazar </div>
+You are the onwer of a bird store, and you use them to organize your cages. If you keep 1 bird per cage, there will be one bird outside of the cage, therefore it will be missing cages. If you keep two birds per cage, there will be one empty cage. How many birds and cages do you have?<br><br><strong>Note: </strong>Separate the answer using commas. E.g.: 'X, Y' (X birds, Y cages) </div>
 <br>
 <form action="internet?view=software&amp;cmd=riddle" method="POST">
 <input type="hidden" name="int-act" value="qa">
@@ -31,7 +31,7 @@ Renato and Matheus told, enthusiastically, the result of the Third International
 </div>
 <div class="widget-content padding center">
 <div class="puzzle-next">
-<span id="puzzle-next">XXX.XX.XXX.XXX</span><br>
+<span id="puzzle-next">XX.X.XXX.XXX</span><br>
 <span id="puzzle-solve" class="small nomargin">(Solve the puzzle)</span>
 </div>
 <div class="puzzle-result">
@@ -45,9 +45,9 @@ Renato and Matheus told, enthusiastically, the result of the Third International
 <h5>Statistics</h5>
 </div>
 <div class="widget-content padding center">
-<span class="green">430</span> players solved this riddle<br>
-<span class="puzzle-tie">9</span> players are stuck here<br>
-<span class="red">2,697</span> players are below this point </div>
+<span class="green">415</span> players solved this riddle<br>
+<span class="puzzle-tie">16</span> players are stuck here<br>
+<span class="red">2,705</span> players are below this point </div>
 </div>
 <div class="widget-box">
 <div class="widget-title">
@@ -70,9 +70,7 @@ Back to Software </a>
 <h5>Credits</h5>
 </div>
 <div class="widget-content padding center">
-Little Liars was developed by <a href="http://rachacuca.com.br">RachaCuca</a> </div>
+Birds And Cages was developed by <a href="http://rachacuca.com.br">RachaCuca</a> </div>
 </div>
 </div>
 </div>
-
-Phoebe, Milena, Naomy

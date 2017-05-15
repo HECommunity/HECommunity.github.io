@@ -1,0 +1,80 @@
+125.23.239.177
+
+<div class="span12">
+<div class="span9">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle"></span></span>
+<h5>Puzzle</h5>
+</div>
+<div class="widget-content padding center">
+<span id="puzzle-header"><strong>You already solved this riddle. The next IP is <a href="internet?ip=164.50.56.166">164.50.56.166</a></strong><br><br></span>
+<span id="puzzle-isSolved" value="false"></span>
+
+
+
+<meta charset="UTF-8">
+<title>Document</title>
+<style>#hidden-cheat{text-decoration:none;color:#000}.switch{width:36px;height:36px;display:inline-block;border-radius:5px;margin:0 2px 0 2px;-webkit-user-select:none;user-select:none;cursor:pointer;transition:all .1s ease-out}.switch:hover{opacity:.8}.switch-on{background-color:#4dace6}.switch-off{background-color:#dfdfdf}.switch-done{transition:all .3s ease-out;background-color:#90ee90}.switch-enter{opacity:.01;-webkit-transform:scale(.5);-moz-transform:scale(.5);-ms-transform:scale(.5);transform:scale(.5);transition:all .3s ease-out}.switch-enter.switch-enter-active{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}</style>
+<script src="puzzle/lightsout/JSXTransformer.js"></script>
+<script src="puzzle/lightsout/react-with-addons.js.pagespeed.jm.YQ57Z4F7eg.js"></script>
+<script src="puzzle/lightsout/index.jsx" type="text/jsx"></script>
+
+
+Turn the switches on
+<div id="game"></div>
+
+
+</div>
+</div>
+</div>
+<div class="span3">
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_info"></span></span>
+<h5>Puzzle Status</h5>
+</div>
+<div class="widget-content padding center">
+<div class="puzzle-next">
+<span id="puzzle-next"><a href="internet?ip=164.50.56.166">164.50.56.166</a></span><br>
+</div>
+<div class="puzzle-result puzzle-win">
+<span id="puzzle-status">SOLVED!</span>
+</div>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_stats"></span></span>
+<h5>Statistics</h5>
+</div>
+<div class="widget-content padding center">
+<span class="green">212</span> players solved this riddle<br>
+<span class="puzzle-tie">119</span> players are stuck here<br>
+<span class="red">2,813</span> players are below this point </div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-actions"></span></span>
+<h5>Options</h5>
+</div>
+<div class="widget-content padding center">
+<ul class="soft-but">
+<li style="margin-top: 15px;">
+<a href="internet?view=software">
+<i class="icon-" style="background-image: none;"><span class="he32-root"></span></i>
+Back to Software </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><span class="he16-puzzle_credits"></span></span>
+<h5>Credits</h5>
+</div>
+<div class="widget-content padding center">
+Lights Out was developed by <a href="https://github.com/chenglou/react-lights-out">chenglou</a> </div>
+</div>
+</div>
+</div>

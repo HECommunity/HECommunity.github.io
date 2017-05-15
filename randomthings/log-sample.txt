@@ -1,0 +1,73 @@
+2017-05-15 18:37 - localhost installed file Advanced Cracker.crc (5.0)
+2017-05-15 18:37 - localhost downloaded file Advanced Cracker.crc (5.0) at [131.211.224.33]
+2017-05-15 18:30 - localhost logged in to [125.23.239.177] as root
+2017-05-15 18:30 - localhost ran antivirus Advanced Anti-Virus.av (5.0), deleting 4 virus.
+2017-05-15 18:24 - localhost installed file Competent Cracker.crc (4.8)
+2017-05-15 18:24 - localhost downloaded file Competent Cracker.crc (4.8) at [131.211.224.33]
+2017-05-15 18:23 - localhost downloaded file Advanced Anti-Virus.av (5.0) at [131.211.224.33]
+2017-05-15 18:19 - localhost logged in to [158.44.93.86] as root
+2017-05-15 18:18 - localhost installed file Competent Cracker.crc (4.6)
+2017-05-15 18:17 - localhost downloaded file Competent Cracker.crc (4.6) at [131.211.224.33]
+2017-05-15 18:17 - localhost logged in to [199.41.229.146] as root
+2017-05-15 18:15 - localhost logged in to [199.41.229.146] as root
+2017-05-15 18:13 - localhost installed file Competent Cracker.crc (4.4)
+2017-05-15 18:13 - localhost downloaded file Competent Cracker.crc (4.4) at [131.211.224.33]
+2017-05-15 18:11 - localhost logged in to [1.4.63.47] as root
+2017-05-15 18:10 - localhost installed file Competent Cracker.crc (4.2)
+2017-05-15 18:10 - localhost downloaded file Competent Cracker.crc (4.2) at [131.211.224.33]
+2017-05-15 18:08 - localhost logged in to [14.187.247.243] as root
+2017-05-15 18:06 - localhost installed file Competent Cracker.crc (4.0)
+2017-05-15 18:06 - localhost downloaded file Competent Cracker.crc (4.0) at [131.211.224.33]
+2017-05-15 18:02 - localhost logged in to [246.73.218.218] as root
+2017-05-15 18:01 - localhost installed file Intermediate Cracker.crc (3.8)
+2017-05-15 18:01 - localhost downloaded file Intermediate Cracker.crc (3.8) at [131.211.224.33]
+2017-05-15 18:00 - localhost logged in to [149.99.208.182] as root
+2017-05-15 17:58 - localhost logged in to [149.99.208.182] as root
+2017-05-15 17:56 - localhost installed file Intermediate Cracker.crc (3.6)
+2017-05-15 17:56 - localhost downloaded file Intermediate Cracker.crc (3.6) at [131.211.224.33]
+2017-05-15 17:54 - localhost logged in to [174.71.118.103] as root
+2017-05-15 17:50 - localhost installed file Decent Firewall.fwl (2.8)
+2017-05-15 17:50 - localhost installed file Intermediate Hasher.hash (3.2)
+2017-05-15 17:50 - localhost installed file Intermediate Cracker.crc (3.4)
+2017-05-15 17:50 - localhost downloaded file Intermediate Cracker.crc (3.4) at [131.211.224.33]
+2017-05-15 17:50 - localhost downloaded file Intermediate Hasher.hash (3.2) at [131.211.224.33]
+2017-05-15 17:50 - localhost downloaded file Decent Firewall.fwl (2.8) at [131.211.224.33]
+2017-05-15 17:48 - localhost logged in to [89.5.238.128] as root
+2017-05-15 17:46 - localhost installed file Intermediate Cracker.crc (3.2)
+2017-05-15 17:46 - localhost downloaded file Intermediate Cracker.crc (3.2) at [131.211.224.33]
+2017-05-15 17:46 - localhost logged in to [166.49.154.227] as root
+2017-05-15 17:44 - localhost logged in to [166.49.154.227] as root
+2017-05-15 17:40 - localhost installed file Intermediate Cracker.crc (3.0)
+2017-05-15 17:39 - localhost downloaded file Intermediate Cracker.crc (3.0) at [131.211.224.33]
+2017-05-15 17:38 - localhost logged in to [168.143.66.248] as root
+2017-05-15 17:34 - localhost logged in to [168.143.66.248] as root
+2017-05-15 17:23 - localhost logged in
+2017-05-14 10:03 - localhost logged in
+2017-05-13 18:26 - localhost logged in
+2017-05-12 14:45 - localhost logged in
+2017-05-12 12:29 - localhost logged in
+2017-05-12 00:18 - localhost logged in
+2017-05-10 15:56 - localhost logged in
+2017-05-09 22:01 - localhost logged in
+2017-05-09 21:09 - localhost logged in
+2017-05-09 12:29 - localhost logged in
+2017-05-09 10:45 - localhost logged in 
+2017-05-08 23:49 - localhost logged in
+2017-05-08 22:28 - localhost logged in
+2017-05-08 21:11 - localhost logged in
+2017-05-08 17:52 - localhost logged in 
+2017-05-08 16:57 - localhost logged in to [206.211.30.54] as root
+2017-05-08 16:46 - localhost logged in to [154.100.50.161] as root
+2017-05-08 16:39 - localhost logged in to [241.151.9.102] as download
+2017-05-08 16:38 - localhost logged in to [43.29.81.199] as root
+2017-05-08 16:37 - localhost logged in to [154.100.50.161] as root
+2017-05-08 16:35 - localhost logged in
+2017-05-08 16:33 - localhost logged in to [50.195.250.20] as root
+2017-05-08 16:33 - localhost logged in to [107.56.87.143] as root
+2017-05-08 16:33 - localhost logged in to [1.2.3.4] as root
+2017-05-08 16:32 - localhost logged in to [8.126.190.183] as root
+2017-05-08 16:32 - localhost logged in to [166.67.29.92] as root
+2017-05-08 16:31 - localhost logged in to [239.72.245.117] as root
+2017-05-08 16:30 - localhost logged in to [60.59.252.164] as root
+2017-05-08 16:29 - localhost logged in to [61.8.217.234] as root
+2017-05-08 16:27 - localhost logged in to [134.43.8.219] as root

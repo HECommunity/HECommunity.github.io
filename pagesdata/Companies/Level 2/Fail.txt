@@ -1,0 +1,4 @@
+<div class="span12">
+<p>Server 159.144.199.181 is <font color="green"><b>online</b></font><span class="label label-info pull-right">NPC</span></p>
+<p></p><div class="center"><img alt="Fail" title="Fail" src="images/npc/xfail.jpg.pagespeed.ic.-y-cfPZvsV.webp"><br><br></div><p></p>
+</div>
