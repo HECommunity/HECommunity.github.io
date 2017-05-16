@@ -2,24 +2,18 @@
 <html>
 <script>
 
-document.onreadystatechange = function () {
-  var state = document.readyState;
-  if (state == 'complete') {
-	  var username;
+  var username;
 
-	  var xhttp = new XMLHttpRequest();
-	  xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-	 //     username = this.responseText;
-		  document.write(this.responseText);
-		}
-	  };
-	  xhttp.open("GET", "static/panel.html");
-	  xhttp.send();
-  }
-}​;
-
-
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+ //     username = this.responseText;
+      console.log("test");
+	  document.write(this.responseText);
+    }
+  };
+  xhttp.open("GET", "static/panel.html");
+  xhttp.send();
 
 </script>
 
