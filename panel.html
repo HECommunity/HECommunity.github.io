@@ -23,7 +23,7 @@ page.onreadystatechange = function() {
 			console.log(username);
 		});
 		var rT = this.responseText;
-		rT.replace("\@username\@", username);
+		rT.replace("$username$", username);
 		document.write(rT);
 	}
 };
