@@ -20,10 +20,10 @@ page.onreadystatechange = function() {
 		var dynamic = dynamict(function(response) {
 			console.log(response);
 			username = "lol" + response;
-			var str = this.responseText;
+			var str = page.responseText;
 			console.log("replacing");
-			//var res = str.replace("$username$", "changed");
-			document.write("try");
+			var res = str.replace("$username$", "changed");
+			document.write(res);
 		});
 	}
 };
