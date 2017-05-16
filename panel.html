@@ -1,12 +1,11 @@
 <script>
 window.stop();
-var username = "lol";
+var username;
 
 function dynamict(callback) {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
-		console.log(this.responseText);
 		callback(this.responseText);
 	}
 };
@@ -18,17 +17,13 @@ var page = new XMLHttpRequest();
 page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		var dynamic = dynamict(function(response) {
-			console.log(response);
-			username = "lol" + response;
-			var str = page.responseText;
-			console.log("replacing");
-			var res = str.replace("$username$", username);
-			document.write(res);
+			username = response;
+			var wrt = page.responseText;
+			var wrt str.replace("$username$", username);
+			document.write(wrt); 
 		});
 	}
 };
 page.open("GET", "static/panel.html");
 page.send();
-
- //     username = this.responseText;
 </script>
