@@ -1,3 +1,7 @@
 <script>
-function dynamic(e){var t=new XMLHttpRequest;t.onreadystatechange=function(){4==this.readyState&&200==this.status&&e(this.responseText)},t.open("GET","username.txt"),t.send()}window.stop();var username,page=new XMLHttpRequest;page.onreadystatechange=function(){if(4==this.readyState&&200==this.status)var e=e(function(e){username=e;var t=page.responseText,t=t.replace("$username$",username);document.write(t)})},page.open("GET","static/panel.html"),page.send();
+window.stop();var username;
+
+function dynamic(t){var e=new XMLHttpRequest;e.onreadystatechange=function(){4==this.readyState&&200==this.status&&t(this.responseText)},e.open("GET","username.txt"),e.send()}
+
+var page=new XMLHttpRequest;page.onreadystatechange=function(){if(4==this.readyState&&200==this.status)var e=e(function(e){username=e;var a=page.responseText,a=a.replace("$username$",username);document.write(a)})},page.open("GET","static/panel.html"),page.send();
 </script>
