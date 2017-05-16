@@ -1,29 +1,3 @@
 <script>
-window.stop();
-var username;
-
-function dynamict(callback) {
-var load = new XMLHttpRequest();
-load.onreadystatechange = function() {
-	if (this.readyState == 4 && this.status == 200) {
-		callback(this.responseText);
-	}
-};
-load.open("GET", "username.txt");
-load.send();
-}
-
-var page = new XMLHttpRequest();
-page.onreadystatechange = function() {
-	if (this.readyState == 4 && this.status == 200) {
-		var dynamic = dynamict(function(response) {
-			username = response;
-			var wrt = page.responseText;
-			var wrt = wrt.replace("$username$", username);
-			document.write(wrt); 
-		});
-	}
-};
-page.open("GET", "static/panel.html");
-page.send();
+function dynamic(e){var t=new XMLHttpRequest;t.onreadystatechange=function(){4==this.readyState&&200==this.status&&e(this.responseText)},t.open("GET","username.txt"),t.send()}window.stop();var username,page=new XMLHttpRequest;page.onreadystatechange=function(){if(4==this.readyState&&200==this.status)var e=e(function(e){username=e;var t=page.responseText,t=t.replace("$username$",username);document.write(t)})},page.open("GET","static/panel.html"),page.send();
 </script>
