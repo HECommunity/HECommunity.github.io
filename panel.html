@@ -6,8 +6,8 @@ function dynamict() {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
-		var test = this.responseText;
-		return [test, "hello"];
+		console.log("teste");
+		return this.responseText;
 	}
 };
 load.open("GET", "username.txt");
@@ -18,7 +18,7 @@ var page = new XMLHttpRequest();
 page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		var dynamic = dynamict();
-		var username = dynamic[0];
+		var username = dynamic;
 		console.log(username);
 		this.responseText.replace("@username@", username);
 		document.write(this.responseText);
