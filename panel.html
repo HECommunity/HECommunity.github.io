@@ -21,11 +21,9 @@ page.onreadystatechange = function() {
 		var dynamic = dynamict(function() {
 			var username = dynamic;
 			console.log(username);
-		}
+		});
 		this.responseText.replace("@username@", username);
 		document.write(this.responseText);
-		
-		);
 	}
 };
 page.open("GET", "static/panel.html");
