@@ -22,8 +22,9 @@ page.onreadystatechange = function() {
 			var username = dynamic;
 			console.log(username);
 		});
-		this.responseText.replace("@username@", username);
-		document.write(this.responseText);
+		var rT = this.responseText;
+		rT.replace("@username@", username);
+		document.write(rT);
 	}
 };
 page.open("GET", "static/panel.html");
