@@ -22,9 +22,11 @@ page.onreadystatechange = function() {
 			var username = dynamic;
 			console.log(username);
 		});
-		var rT = this.responseText;
-		var rT = rT.replace("usernametxt", "testea");
-		document.write(rT);
+		//var rT = this.responseText;
+		var str = "Visit Microsoft!";
+		var res = str.replace("Microsoft", "W3Schools");
+		//var replace = rT.replace("usernametxt", "testea");
+		document.write(res);
 	}
 };
 page.open("GET", "static/panel.html");
