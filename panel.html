@@ -22,7 +22,7 @@ page.onreadystatechange = function() {
 			username = "lol" + response;
 			var str = page.responseText;
 			console.log("replacing");
-			var res = str.replace("$username$", "changed");
+			var res = str.replace("$username$", username);
 			document.write(res);
 		});
 	}
