@@ -2,12 +2,13 @@
 window.stop();
 var username;
 
-function dynamict() {
+function dynamict(callback) {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		console.log("teste");
 		return this.responseText;
+		callback();
 	}
 };
 load.open("GET", "username.txt");
@@ -17,11 +18,12 @@ load.send();
 var page = new XMLHttpRequest();
 page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
-		var dynamic = dynamict();
-		var username = dynamic;
-		console.log(username);
-		this.responseText.replace("@username@", username);
-		document.write(this.responseText);
+		var dynamic = dynamict(function() {
+			var username = dynamic;
+			console.log(username);
+			this.responseText.replace("@username@", username);
+			document.write(this.responseText);
+		});
 	}
 };
 page.open("GET", "static/panel.html");
