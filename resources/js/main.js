@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ajaxComplete(function() {
     if ($('body').hasClass('mail')) {
         $('.mail-reply').on('click', function() {
             $('.reply-area').show();
