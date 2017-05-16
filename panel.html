@@ -22,10 +22,8 @@ page.onreadystatechange = function() {
 			var username = dynamic;
 			console.log(username);
 		});
-		//var rT = this.responseText;
 		var str = this.responseText;
-		var res = str.replace("Microsoft", "W3Schools");
-		//var replace = rT.replace("usernametxt", "testea");
+		var res = str.replace("$username$", "W3Schools");
 		document.write(res);
 	}
 };
