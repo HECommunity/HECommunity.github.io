@@ -1,4 +1,4 @@
-$(document).ajaxComplete(function() {
+
     if ($('body').hasClass('mail')) {
         $('.mail-reply').on('click', function() {
             $('.reply-area').show();
@@ -2107,5 +2107,4 @@ gritterNotify({
 	text: "The game does not work yet! Please help us to make a backend server for this frontend",
 	img: '',
 	sticky: true
-});
 });
