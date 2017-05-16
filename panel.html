@@ -6,7 +6,8 @@ function dynamict() {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
-		return [this.responseText, "hello"];
+		var test = this.responseText;
+		return [test, "hello"];
 	}
 };
 load.open("GET", "username.txt");
