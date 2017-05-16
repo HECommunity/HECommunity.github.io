@@ -20,7 +20,7 @@ page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		var dynamic = dynamict();
 		console.log(dynamict.username);
-		this.responseText.replace("@username@", dynamic.username);
+		this.responseText.replace("@username@", dynamict.username);
 		document.write(this.responseText);
 	}
 };
