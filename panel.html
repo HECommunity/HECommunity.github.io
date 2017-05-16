@@ -23,7 +23,7 @@ page.onreadystatechange = function() {
 			console.log(username);
 		});
 		var rT = this.responseText;
-		rT.replace("usernametxt", username);
+		var rT = rT.replace("usernametxt", username);
 		document.write(rT);
 	}
 };
