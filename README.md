@@ -1,4 +1,4 @@
-# helegacy.us
+# play.helegacy.us
 Hello friends, we have a project of not letting the legacy version die, even though renato never publish the project as open source ... Only the HEBorn version ...
 We've played this game for years, and we want it to show our kids in the future, not just prints, but working.
 
