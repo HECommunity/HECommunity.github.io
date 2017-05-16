@@ -2,18 +2,6 @@
 window.stop();
 var username;
 
-var page = new XMLHttpRequest();
-page.onreadystatechange = function() {
-	if (this.readyState == 4 && this.status == 200) {
-		var dynamic = dynamic();
-		console.log(dynamic.username);
-		this.responseText.replace("@username@", dynamic.username);
-		document.write(this.responseText);
-	}
-};
-page.open("GET", "static/panel.html");
-page.send();
-
 function dynamic() {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
@@ -26,6 +14,18 @@ load.onreadystatechange = function() {
 load.open("GET", "username.txt");
 load.send();
 }
+
+var page = new XMLHttpRequest();
+page.onreadystatechange = function() {
+	if (this.readyState == 4 && this.status == 200) {
+		var dynamic = dynamic();
+		console.log(dynamic.username);
+		this.responseText.replace("@username@", dynamic.username);
+		document.write(this.responseText);
+	}
+};
+page.open("GET", "static/panel.html");
+page.send();
 
  //     username = this.responseText;
 </script>
