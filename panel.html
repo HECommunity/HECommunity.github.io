@@ -2,7 +2,7 @@
 window.stop();
 var username;
 
-function dynamic() {
+function dynamict() {
 var load = new XMLHttpRequest();
 load.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
@@ -18,7 +18,7 @@ load.send();
 var page = new XMLHttpRequest();
 page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
-		var dynamic = dynamic();
+		var dynamic = dynamict();
 		console.log(dynamic.username);
 		this.responseText.replace("@username@", dynamic.username);
 		document.write(this.responseText);
