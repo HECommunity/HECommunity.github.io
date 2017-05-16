@@ -8,17 +8,15 @@
 <link rel="stylesheet" href="/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <script>
 
-function silentErrorHandler() {return true;}
-window.onerror=silentErrorHandler;
+  var username;
 
-var username;
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       username = this.responseText;
     }
   };
-  xhttp.open("GET", "username.txt", false);
+  xhttp.open("GET", "username.txt");
   xhttp.send();
 
 </script>
