@@ -1,6 +1,6 @@
 <script>
 window.stop();
-var username;
+var username = "lol";
 
 function dynamict(callback) {
 var load = new XMLHttpRequest();
@@ -19,7 +19,7 @@ page.onreadystatechange = function() {
 	if (this.readyState == 4 && this.status == 200) {
 		var dynamic = dynamict(function(response) {
 			console.log(response);
-			username = response;
+			username = "lol" + response;
 		});
 		var str = this.responseText;
 		var res = str.replace("$username$", username);
