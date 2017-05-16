@@ -6592,6 +6592,12 @@ form {
 .logsubmit {
     margin-top: 6px
 }
+
+@media (min-width: 1824px) {
+.logarea {
+    height: 500px;
+}}
+
 .browser-input input[type="text"],
 .browser-bar {
     margin-left: 20px;
