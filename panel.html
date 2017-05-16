@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
 <script>
+var xhttp = new XMLHttpRequest();
 
   window.stop();
   var username;
 
-  var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
  //     username = this.responseText;
@@ -17,5 +16,3 @@
   xhttp.send();
 
 </script>
-
-</html>
