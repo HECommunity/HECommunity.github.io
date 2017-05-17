@@ -1,3 +1,4 @@
+<body></body>
 <script>
 var file = window.location.pathname,
     file = file.replace(".html", "");
@@ -24,4 +25,3 @@ page.onreadystatechange = function() {
 document.body.style.cursor = 'progress';
 page.open("GET", "static/" + file + ".html"), page.send();
 </script>
-<body></body>
