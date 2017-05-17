@@ -2108,7 +2108,3 @@ gritterNotify({
 	img: '',
 	sticky: true
 });
-
-window.onbeforeunload = function() {
-	document.body.style.cursor = 'progress';
-}
