@@ -3,7 +3,7 @@ Hello friends, we have a project of not letting the legacy version die, even tho
 We've played this game for years, and we want it to show our kids in the future, not just prints, but working.
 
 If you know anything about javascript or nodejs, or even just want to help capture the entire frontend, join us, and do a pull request.
-Once we capture the frontend and finish the most of the backend, we'll put the game online and up and running at http://helegacy.us
+Once we capture the frontend and finish the most of the backend, we'll put the game online and up and running at https://play.helegacy.us
 
 The frontend will be hosted on github pages, and the backend will run on an instance in amazon aws free tier. Communication with the backend probably we will do in javascript. PHP will not be used because it is slow, and it is not scalable.
 
