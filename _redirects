@@ -1,4 +1,6 @@
 https://helegacy.us/* https://play.helegacy.us/:splat 301!
 https://www.helegacy.us/* https://play.helegacy.us/:splat 301!
 
+/panel /loader 200
+
 /testserver/* http://augustoresende.ddns.net:85/:splat 200
