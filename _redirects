@@ -1,6 +1,27 @@
+# Loader in all pages
+/panel /loader 200
+/processes /loader 200
+/software /loader 200
+/internet /loader 200
+/log /loader 200
+/hardware /loader 200
+/university /loader 200
+/finances /loader 200
+/list /loader 200
+/missions /loader 200
+/clan /loader 200
+/ranking /loader 200
+/fame /loader 200
+
+# TOS and other things
+/tos /loader 200
+
+# Redirect wiki
+/wiki https://github.com/HECommunity/HELegacy/wiki 302
+
+# helegacy.us to play.helegacy.us
 https://helegacy.us/* https://play.helegacy.us/:splat 301!
 https://www.helegacy.us/* https://play.helegacy.us/:splat 301!
 
-/panel /loader 200
-
+# test server with SSL certificate.
 /testserver/* http://augustoresende.ddns.net:85/:splat 200

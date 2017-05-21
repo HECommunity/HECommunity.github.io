@@ -1,2 +1,4 @@
+#Cache to all pages. 1ms is good, 2ms is bad.
+
 /* 
   Cache-Control: max-age=86400, public
