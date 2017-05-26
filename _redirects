@@ -1,3 +1,7 @@
+# helegacy.us to play.helegacy.us
+https://helegacy.us/* https://play.helegacy.us/:splat 301!
+https://www.helegacy.us/* https://play.helegacy.us/:splat 301!
+
 # Loader in all pages
 /panel /loader 200
 /processes /loader 200
@@ -18,10 +22,6 @@
 
 # Redirect wiki
 /wiki https://github.com/HECommunity/HELegacy/wiki 302
-
-# helegacy.us to play.helegacy.us
-https://helegacy.us/* https://play.helegacy.us/:splat 301!
-https://www.helegacy.us/* https://play.helegacy.us/:splat 301!
 
 # test server with SSL certificate.
 /testserver/* http://augustoresende.ddns.net:85/:splat 200
