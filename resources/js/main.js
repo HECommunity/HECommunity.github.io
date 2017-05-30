@@ -2109,8 +2109,10 @@ gritterNotify({
 	sticky: true
 });
 
-$('#sidebar a').hover(function() {
-    var file = $(this).attr("href");
-    console.log(file);
+$('#sidebar a').mouseenter(function() {
+	var link = $(this).attr("href");
+	if($( 'link[href*="'link'"]' ).length == 0){
+    	$('<link id="teste" rel="prefetch prerender preload" href="'link'">').appendTo("body");
+    }
 });
 $('<link rel="prefetch prerender preload" href="static/panel">').appendTo("body");
