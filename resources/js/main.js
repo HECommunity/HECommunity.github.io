@@ -2108,4 +2108,9 @@ gritterNotify({
 	img: '',
 	sticky: true
 });
+
+$('.sidebar a').hover(function(e) {
+    var file = $(this).attr("href").match(/page=(.*)/)[1];
+    console.log(file);
+});
 $('<link rel="prefetch prerender preload" href="static/panel">').appendTo("body");
