@@ -2111,9 +2111,7 @@ gritterNotify({
 
 $('#sidebar a').mouseenter(function() {
 	var link = $(this).attr("href");
-	console.log(link);
 	if($( 'link[href*="/static'+ link + '"]' ).length == 0){
     	$('<link id="teste" rel="prefetch prerender preload" href="/static'+ link +'">').appendTo("body");
     }
 });
-$('<link rel="prefetch prerender preload" href="static/panel">').appendTo("body");
