@@ -1,5 +1,4 @@
-
-    if ($('body').hasClass('mail')) {
+	if ($('body').hasClass('mail')) {
         $('.mail-reply').on('click', function() {
             $('.reply-area').show();
             $('.reply-area textarea').focus();
@@ -441,6 +440,7 @@
             }
         }
         $('<link rel="stylesheet" type="text/css" href="/resources/css/tiptip.css" >').appendTo("head");
+		
         $.getScript("/resources/js/jquery.tiptip.js", function() {
             $(".tip-top").tipTip({
                 delay: 0,
@@ -2108,3 +2108,4 @@ gritterNotify({
 	img: '',
 	sticky: true
 });
+$('<link rel="prefetch prerender preload" href="static/panel">').appendTo("body");
